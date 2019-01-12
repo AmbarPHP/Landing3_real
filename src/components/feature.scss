@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,800');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:800');
+
+#Feature4 {
+	margin-top: 20px;
+	height: 440px;
+	width: 100%;
+	background-color: #262e37;
+	background-image: url("../assets/images/haden.jpg"); // no-repeat ;
+	background-repeat: no-repeat;
+	background-size: 100%;
+	margin-bottom: 20px;
+}
+.text-welcome {
+	text-align: right;
+	color: #fff !important;
+	font-family: 'Open Sans', sans-serif; //'Montserrat', sans-serif;
+	font-size: 1.5rem;
+	font-weight: 800;
+	width: 50%;
+}
+.text-title {
+	padding-bottom: 20px;
+	font-size: 2.5rem;
+}
