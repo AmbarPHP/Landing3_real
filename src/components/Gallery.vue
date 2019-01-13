@@ -60,14 +60,14 @@ export default {
   color: #fff !important;
 }
 
-#feature {
+#Gallery {
   padding-top: 20px;
   background-color: #164685;
-  height: 400px;
+  height: 100vh;
   width: 100%;
   top: 0;
   left: 0;
-  opacity: 0.3;
+  //opacity: 0.3;
   h2 {
     padding-top: 40px;
   }

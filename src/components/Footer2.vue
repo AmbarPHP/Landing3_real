@@ -3,8 +3,8 @@
   <section id="Footer2">
     <div class="row footer">
       <div class="col-lg-3 text-center">
-        <img class="fix" src="../assets/logo.png" alt="Feature img">
-        <p class="content-footer">
+        <p class="tittle-footer">PROEBA PACKING</p>
+        <p class="content-footer data">
           With our whole family originally coming to the US from Ireland,
           farming is definitely in our blood. Ultimately, having been
           running this farm for 89 years by now, we're the top supplier
@@ -28,31 +28,28 @@
       <div class="col-lg-3 text-center">
         <div class="latestNews">
           <p class="tittle-footer">Ultimas Noticias</p>
+          <p class="content-footer news">Tips for Taking Care of the Livestock</p>
+          <p class="content-footer data">26 NOV 2018</p>
 
-          <p class="content-footer-news">Tips for Taking Care of the Livestock</p>
-          <p style="color:#fff">26 NOV 2018</p>
-
-          <p class="content-footer-news">Tips for Taking Care of the Livestock</p>
-          <p style="color:#fff">26 NOV 2018</p>
+          <p class="content-footer news">Tips for Taking Care of the Livestock</p>
+          <p class="content-footer data">26 NOV 2018</p>
         </div>
       </div>
       <div class="col-lg-3 text-center">
         <div>
           <p class="tittle-footer">Contactanos</p>
-          <p class="content-footer">
-            11559 Ventura Boulevard, Studio City, CA 91604
-            Email: latify@demolink.org
-            Phone 01: 555-748-6051
-            Phone 02: 555-748-6052
-            Fax: 555-748-6050
-          </p>
+
+          <p class="content-footer data">11559 Ventura Boulevard, Studio City, CA 91604</p>
+          <p class="content-footer data">Email: proeba@demolink.org</p>
+          <p class="content-footer data">Phone 01: 311-748-6051</p>
+          <p class="content-footer data">Phone 02: 311-748-6052</p>
+          <p class="content-footer data">Fax: 311-748-6050</p>
         </div>
       </div>
       <div class="col-lg-3 text-center">
         <div>
           <p class="tittle-footer">Suscribase</p>
-
-          <p class="content-footer">Follow Blog Updates & Get All the Special Offers!</p>
+          <p class="content-footer data">Follow Blog Updates & Get All the Special Offers!</p>
           <div class="contact-form">
             <form action="#" method="post">
               <div class="form-group">
@@ -87,38 +84,38 @@ $color-resaltado: #00be00;
 $color-complementario: #891e67;
 $background-color: #fff;
 #Footer2 {
-  background-color: $background-color; //#262e37;
-  color: #fff;
-  margin-left: 0px;
-  img.fix {
-    text-align: left;
-  }
+  background-color: #262e37; //$background-color; // //
+  color: $color-complementario;
+  //margin-left: 0vw;
+  padding-top: 25vh; //un margen de separacion del 10 % del viewport
+  padding-bottom: 25vh; //dejar espacion entre este componete y el footer
+  height: 100vh; //50% del view port
+  width: 100%; // trate de darle un ancho de el view port
 }
-
 .tittle-footer {
-  padding-top: 30px;
-  padding-bottom: 30px;
+  margin-top: 20vh;
   font-size: 28px;
   font-family: "Montserrat", sans-serif;
   font-weight: bold;
   line-height: 1.2307;
   color: $color-complementario;
 }
-.content-footer-news {
+.content-footer {
+  padding-left: 0vw;
+  padding-top: 0vh;
+  text-align: left;
+}
+.news {
   font-weight: bold;
   line-height: 1.2307;
-  color: $color-resaltado; //#00d496;
+  color: $color-resaltado;
   font-size: 18px;
-  text-align: left;
 }
-.content-footer {
-  padding-left: 30px;
-  padding-top: 80px;
+.data {
   color: $color-complementario;
-  text-align: left;
 }
-
 .latestNews {
+  //cambia el tipo de fuente a todo lo que esta en este div
   color: $color-resaltado;
   font-family: "Courier New", Courier, monospace;
 }
@@ -131,7 +128,7 @@ ul {
 }
 li {
   display: inline-block;
-  margin: 0 10px;
+  margin: 0 10vw;
 }
 a {
   color: $color-resaltado;
@@ -139,8 +136,5 @@ a {
 .btn-verde {
   background-color: $color-resaltado;
   color: $color-complementario;
-}
-.fix {
-  padding-top: 30px;
 }
 </style>

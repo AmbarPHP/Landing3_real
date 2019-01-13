@@ -32,7 +32,8 @@ export default {
 #Maps {
   padding-top: 20px;
   //background-color: #42b983;
-  height: 100%;
+  height: 100vh;
+  margin-top: 5vh;
   width: 100%;
   // top: 0;
   // left: 0;
@@ -42,8 +43,8 @@ export default {
   }
 }
 img.fix {
-  height: 100%;
-  width: 100%;
+  height: 90%;
+  width: 90%;
   display: flex;
   justify-content: center;
 }

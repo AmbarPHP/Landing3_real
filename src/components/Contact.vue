@@ -79,9 +79,10 @@ export default {
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped lang="scss">
 #Contact {
+  height: 100vh;
   .container {
-    padding-top: 40px;
-    margin-top: 120px;
+    padding-top: 100px;
+    //margin-top: 120px;
   }
 }
 h3 {
@@ -94,8 +95,5 @@ ul {
 li {
   display: inline-block;
   margin: 0 10px;
-}
-a {
-  color: #42b983;
 }
 </style>

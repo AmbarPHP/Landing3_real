@@ -18,4 +18,10 @@ export default {};
 </script>
 
 <style>
+#About {
+  padding-top: 20px;
+  background-color: #164685;
+  height: 100vh;
+  width: 100%;
+}
 </style>

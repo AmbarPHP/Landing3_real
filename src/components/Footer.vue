@@ -59,6 +59,9 @@ export default {
 $color-resaltado: #00be00;
 $color-complementario: #891e67;
 $background-color: #fff;
+#Footer {
+  height: 10vh;
+}
 h3 {
   margin: 40px 0 0;
 }
