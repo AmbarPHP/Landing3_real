@@ -7,7 +7,7 @@
     <div class="container">
       <div class="row">
         <div class="col-lg-12 h-100 text-center text-lg-right my-auto">
-          <Gallery3></Gallery3>
+          <Carrusel></Carrusel>
         </div>
       </div>
       <div class="row">
@@ -68,7 +68,7 @@ import Feature4 from "./components/Feature4.vue";
 import Embed from "./components/Embed.vue";
 import Maps from "./components/Maps.vue";
 import Gallery from "./components/Gallery.vue";
-import Gallery3 from "./components/Gallery3.vue";
+import Carrusel from "./components/Carrusel.vue";
 
 export default {
   name: "app",
@@ -82,7 +82,7 @@ export default {
     Feature3,
     Feature4,
     Gallery,
-    Gallery3,
+    Carrusel,
     Embed,
     Maps
   },
@@ -95,8 +95,12 @@ export default {
 </script>
 
 <style lang="scss">
+$color-complementario: #891e67;
+$color-resaltado: #00be00;
+$background-color: #fff;
+
 #app {
-  background-color: #891e67; //#262e37;
+  background-color: $background-color; //#262e37;
   color: #fff;
   margin-left: 0px;
   font-family: "Montserrat", sans-serif; //tipo de fuente

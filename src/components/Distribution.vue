@@ -61,13 +61,17 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped lang="scss">
+$color-resaltado: #00be00;
+$color-complementario: #891e67;
+$background-color: #fff;
+
 .text-white {
   color: #fff !important;
 }
 
 #Distribution {
   padding-top: 20px;
-  background-color: #42b983;
+  background-color: $color-complementario; //#42b983;
   height: 100%;
   width: 100%;
   // top: 0;

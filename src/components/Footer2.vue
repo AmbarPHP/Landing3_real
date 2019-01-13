@@ -83,8 +83,11 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped lang="scss">
+$color-resaltado: #00be00;
+$color-complementario: #891e67;
+$background-color: #fff;
 #Footer2 {
-  background-color: #262e37;
+  background-color: $background-color; //#262e37;
   color: #fff;
   margin-left: 0px;
   img.fix {
@@ -99,28 +102,28 @@ export default {
   font-family: "Montserrat", sans-serif;
   font-weight: bold;
   line-height: 1.2307;
-  color: #fff;
+  color: $color-complementario;
 }
 .content-footer-news {
   font-weight: bold;
   line-height: 1.2307;
-  color: #00d496;
+  color: $color-resaltado; //#00d496;
   font-size: 18px;
   text-align: left;
 }
 .content-footer {
   padding-left: 30px;
   padding-top: 80px;
-  color: #fff;
+  color: $color-complementario;
   text-align: left;
 }
 
 .latestNews {
-  color: #00d496;
+  color: $color-resaltado;
   font-family: "Courier New", Courier, monospace;
 }
 h3 {
-  color: #00d496;
+  color: $color-resaltado;
 }
 ul {
   list-style-type: none;
@@ -131,11 +134,11 @@ li {
   margin: 0 10px;
 }
 a {
-  color: #42b983;
+  color: $color-resaltado;
 }
 .btn-verde {
-  background-color: #42b983;
-  color: #fff;
+  background-color: $color-resaltado;
+  color: $color-complementario;
 }
 .fix {
   padding-top: 30px;

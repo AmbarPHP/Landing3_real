@@ -56,6 +56,9 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped lang="scss">
+$color-resaltado: #00be00;
+$color-complementario: #891e67;
+$background-color: #fff;
 h3 {
   margin: 40px 0 0;
 }
@@ -68,6 +71,6 @@ li {
   margin: 0 10px;
 }
 a {
-  color: #42b983;
+  color: $color-complementario; //#42b983;
 }
 </style>
