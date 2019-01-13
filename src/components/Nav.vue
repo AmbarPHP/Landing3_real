@@ -1,6 +1,6 @@
 <template>
   <section id="Nav">
-    <img class="img-responsive fix" src="../assets/images/logo6.png" alt="Feature img">
+    <img class="img-responsive fix" src="../assets/logo.png" alt="Feature img">
     <nav class="navbar bg-verde navbar-expand-lg">
       <button
         class="navbar-toggler"
@@ -53,10 +53,10 @@ export default {
 <style scoped lang="scss">
 #Nav {
   font-family: "Open Sans", sans-serif; //'Montserrat', sans-serif;
-  .bg-verde {
-    color: #00d496;
-    height: 90px;
-    font-size: 24px;
+
+  background-color: #891e67;
+  a {
+    color: #fff;
   }
 }
 </style>

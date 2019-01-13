@@ -96,13 +96,18 @@ export default {
 
 <style lang="scss">
 #app {
-  background-color: #262e37;
+  background-color: #891e67; //#262e37;
   color: #fff;
   margin-left: 0px;
+  font-family: "Montserrat", sans-serif; //tipo de fuente
 }
 h1,
 h2 {
   font-weight: normal;
+  font-size: 28px;
+
+  font-weight: bold;
+  line-height: 1.2307;
 }
 
 ul {
@@ -115,16 +120,12 @@ li {
   margin: 0 10px;
 }
 
-a {
-  color: #42b983;
-}
-
 .sticky {
   position: -webkit-sticky;
   position: sticky;
   top: 0;
   //background-color: yellow;
-  background-color: #262e37;
+  background-color: #891e67;
   padding: 25px;
   font-size: 20px;
   z-index: 11;

@@ -3,7 +3,7 @@
   <section id="Footer2">
     <div class="row footer">
       <div class="col-lg-3 text-center">
-        <img class="fix" src="../assets/images/logo6.png" alt="Feature img">
+        <img class="fix" src="../assets/logo.png" alt="Feature img">
         <p class="content-footer">
           With our whole family originally coming to the US from Ireland,
           farming is definitely in our blood. Ultimately, having been
@@ -109,6 +109,8 @@ export default {
   text-align: left;
 }
 .content-footer {
+  padding-left: 30px;
+  padding-top: 80px;
   color: #fff;
   text-align: left;
 }
@@ -134,5 +136,8 @@ a {
 .btn-verde {
   background-color: #42b983;
   color: #fff;
+}
+.fix {
+  padding-top: 30px;
 }
 </style>
