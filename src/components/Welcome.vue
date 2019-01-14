@@ -76,7 +76,7 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped lang="scss">
-@import url("https://fonts.googleapis.com/css?family=Open+Sans:800");
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:300");
 $color-resaltado: #00be00;
 $color-complementario: #891e67;
 $background-color: #fff;

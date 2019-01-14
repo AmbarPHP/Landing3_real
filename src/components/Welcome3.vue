@@ -1,0 +1,157 @@
+<template>
+  <section id="Welcome">
+    <!-- <Carrusel></Carrusel> -->
+    <div class="container h-100">
+      <div class="row d-flex h-50">
+        <div
+          class="col-xs-12 col-sm-12 col-md-12 col-lg-12 justify-content-center align-self-center table-bordered"
+        >
+          <!-- <div>
+            <span class="text">Welcome</span>
+            <span>Proeba Pack es uan empresa de empaquetado y distribucion de mercancia</span>
+            <span>Ahora nuestras sucursales tiene servicios a todo mexico</span>
+          </div>
+          <img
+            class="img-fluid rounded w-100"
+            src="../assets/images/top_malmo-1110x480.jpg"
+            alt="Card image"
+          >-->
+          <Carrusel></Carrusel>
+        </div>
+      </div>
+      <div class="row h-50">
+        <div
+          class="col-xs-12 col-sm-12 col-md-4 justify-content-center align-self-center table-bordered"
+        >
+          <div class="thumbnail">
+            <a href="../assets/images/haden.jpg">
+              <img
+                class="img-fluid rouded"
+                src="../assets/images/infra3.jpeg"
+                alt="Lights"
+                style="height:100% width:100%"
+              >
+              <div class="caption">
+                <p>Lorem ipsum...</p>
+              </div>
+            </a>
+          </div>
+        </div>
+        <div
+          class="col-xs-12 col-sm-12 col-md-4 justify-content-center align-self-center table-bordered"
+        >
+          <div class="thumbnail">
+            <a href="../assets/images/haden.jpg">
+              <img
+                class="img-fluid rouded"
+                src="../assets/images/infra.jpeg"
+                alt="Lights"
+                style=" height:100% width:100%"
+              >
+              <div class="caption">
+                <p>Lorem ipsum...</p>
+              </div>
+            </a>
+          </div>
+        </div>
+        <div
+          class="col-xs-12 col-sm-12 col-md-4 justify-content-center align-self-center table-bordered"
+        >
+          <div class="thumbnail">
+            <a href="../assets/images/haden.jpg">
+              <img
+                class="img-fluid rouded"
+                src="../assets/images/infra4.jpeg"
+                alt="Lights"
+                style="height:100% width:100%"
+              >
+              <div class="caption">
+                <p>Lorem ipsum...</p>
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</template>
+
+<script>
+import Carrusel from "./Carrusel";
+export default {
+  name: "Welcome",
+  components: { Carrusel },
+  props: {
+    msg: String
+  }
+};
+</script>
+
+<!-- Add "scoped" attribute to limit CSS to this component only -->
+<style scoped lang="scss">
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:800");
+$color-resaltado: #00be00;
+$color-complementario: #891e67;
+$background-color: #fff;
+$font: "Open Sans", sans-serif; //'Montserrat', sans-serif;
+
+.text-white {
+  color: $color-complementario !important;
+}
+
+#Welcome {
+  font-family: $font;
+  // display: block;
+  height: 100vh;
+  width: 100%;
+  padding-left: 12.5vh;
+  background-color: #c5c; //$background-color;
+  color: $color-complementario;
+  //contenedoer del grid
+  .container {
+    height: 100vh;
+    width: 150% !important;
+    background: #ccf;
+    margin-left: -12.5vh; //margen iz
+    margin-right: 0vh; //margen derecho
+  }
+  // //cada row debe tener su tamaño
+  // .row {
+  //   //height: 10vh;
+  //   width: 100vw; //es importante que se vw para que se el ancho del view port
+  //   display: block-inline;
+  // }
+  // .row2 {
+  //   position: absolute; // se solapaban por ser imagenes
+  //   top: 65vh; //para poner en medio de la pantalla
+  //   left: 0vh; // alineado a la izq
+  //   display: block-inline;
+  // }
+
+  span {
+    position: absolute;
+    color: #fff;
+  }
+  p {
+    z-index: 100;
+    position: absolute;
+    color: $color-complementario;
+  }
+  .welcome {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+  }
+  .text {
+    font-size: 6rem;
+    font-weight: bold;
+  }
+  .text2 {
+    font-size: 2rem;
+  }
+  .text3 {
+    font-size: 1rem;
+  }
+}
+</style>

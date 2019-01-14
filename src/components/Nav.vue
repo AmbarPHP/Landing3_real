@@ -2,6 +2,8 @@
   <section id="Nav">
     <img class="img-responsive fix" src="../assets/logo.png" alt="Feature img">
     <nav class="navbar navbar-expand-lg fixed-top">
+      <!-- <img src="../assets/logo.png" alt="Logo" style="width:400px;"> -->
+      <a class="navbar-brand" href="#">ProebaPack</a>
       <button
         class="navbar-toggler"
         type="button"
@@ -17,21 +19,24 @@
         <ul class="navbar-nav">
           <li class="nav-item active">
             <a class="nav-link scrollactive-item" href="#Welcome">
-              Inicio
+              HOME
               <span class="sr-only">(current)</span>
             </a>
           </li>
           <li class="nav-item">
-            <a class="nav-link scrollactive-item" href="#Gallery">Nuestros Productos</a>
+            <a class="nav-link scrollactive-item" href="#Gallery">NUESTROS PRODUCTOS</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link scrollactive-item" href="#Distribution">Distribución y Venta</a>
+            <a class="nav-link scrollactive-item" href="#Distribution">SERVICIOS</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link scrollactive-item" href="#Footer2">Contactanos</a>
+            <a class="nav-link scrollactive-item" href="#Footer2">CONTACTANOS</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link scrollactive-item" href="#Maps">Mapas</a>
+            <a class="nav-link scrollactive-item" href="#Maps">ACERCA DE NOSOTROS</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link scrollactive-item" href="#Maps">MAPA</a>
           </li>
         </ul>
       </div>
@@ -47,7 +52,7 @@ export default {
   }
 };
 </script>
-@import url('https://fonts.googleapis.com/css?family=Open+Sans:800');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300');
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped lang="scss">
@@ -59,10 +64,12 @@ $background-color: #fff;
 
   a {
     color: #ccc;
+    font-size: 1.5rem;
   }
 
   .navbar {
-    background: #ccc; //$background-color;
+    background: $background-color;
+    height: 15vh;
   }
   .nav-link,
   .navbar-brand {

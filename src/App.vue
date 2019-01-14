@@ -2,7 +2,7 @@
   <div id="app">
     <Nav></Nav>
     <Welcome></Welcome>
-    <Carrusel></Carrusel>
+    <!-- <Carrusel></Carrusel> -->
     <Embed></Embed>
     <Gallery></Gallery>
     <Distribution></Distribution>
