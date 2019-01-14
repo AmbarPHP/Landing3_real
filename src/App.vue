@@ -3,7 +3,7 @@
     <Nav></Nav>
     <Welcome></Welcome>
     <!-- <Carrusel></Carrusel> -->
-    <Embed></Embed>
+    <Video></Video>
     <Gallery></Gallery>
     <Distribution></Distribution>
     <Maps></Maps>
@@ -39,7 +39,7 @@
 
       <div class="row" id="solutions">
         <div class="col-lg-12 col-md-12 col-ms-12 col-xs-12 text-center my-auto mx-0">
-          <Embed></Embed>
+          <Video></Video>
         </div>
       </div>
       <div class="row" id="gallery">
@@ -78,7 +78,7 @@ import Nav from "./components/Nav.vue";
 import Contact from "./components/Contact.vue";
 import Distribution from "./components/Distribution.vue";
 import Welcome from "./components/Welcome.vue";
-import Embed from "./components/Embed.vue";
+import Video from "./components/Video.vue";
 import Maps from "./components/Maps.vue";
 import Gallery from "./components/Gallery.vue";
 import Carrusel from "./components/Carrusel.vue";
@@ -93,7 +93,7 @@ export default {
     Welcome,
     Gallery,
     Carrusel,
-    Embed,
+    Video,
     Maps
   },
   data() {

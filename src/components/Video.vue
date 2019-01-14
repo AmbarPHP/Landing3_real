@@ -1,6 +1,6 @@
 
 <template>
-  <section id="About">
+  <section id="Video">
     <h2 class="text-uppercase">Ve nuestros videos y conocenos</h2>
     <div>
       <b-embed
@@ -14,7 +14,9 @@
 </template>
 
 <script>
-export default {};
+export default {
+  name: "Video"
+};
 </script>
 
 <style>
