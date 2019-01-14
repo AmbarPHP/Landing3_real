@@ -56,13 +56,13 @@ $color-resaltado: #00be00;
 $background-color: #fff;
 #Nav {
   font-family: "Open Sans", sans-serif; //'Montserrat', sans-serif;
-  background-color: #891e67;
+
   a {
     color: #ccc;
   }
 
   .navbar {
-    background: $background-color;
+    background: #ccc; //$background-color;
   }
   .nav-link,
   .navbar-brand {
@@ -80,7 +80,7 @@ $background-color: #fff;
     justify-content: flex-end;
   }
   .navbar-toggler {
-    background: $background-color;
+    background: #005; //$background-color;
     color: $color-resaltado;
   }
   .navbar-collapse {

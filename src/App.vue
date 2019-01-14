@@ -1,22 +1,33 @@
 <template>
   <div id="app">
-    <div class="nav-sticky">
-      <Nav></Nav>
-    </div>
+    <Nav></Nav>
+    <Welcome></Welcome>
+    <Carrusel></Carrusel>
+    <Embed></Embed>
+    <Gallery></Gallery>
+    <Distribution></Distribution>
+    <Maps></Maps>
+    <Footer2></Footer2>
+    <Footer></Footer>
 
-    <div class="container">
+    <!-- <div class="container margins">
       <div class="row">
-        <div class="col-lg-12 col-md-12 col-xs-12 text-center my-auto mx-0">
-          <Feature3></Feature3>
+        <div class="col-lg-12 col-md-12 col-ms-12 col-xs-12 text-center my-auto mx-0">
+          <Nav></Nav>
         </div>
       </div>
-      <div class="row">
-        <div class="col-lg-12col-md-12 col-xs-12 text-center my-auto mx-0">
+      <div class="row" id="home">
+        <div class="col-lg-12 col-md-12 col-ms-12 col-xs-12 text-center my-auto mx-0">
+          <Welcome></Welcome>
+        </div>
+      </div>
+      <div class="row" id="home2">
+        <div class="col-lg-12col-md-12 col-ms-12 col-xs-12 text-center my-auto mx-0">
           <Carrusel></Carrusel>
         </div>
       </div>
       <div class="row">
-        <div class="col-lg-12col-md-12 col-xs-12 text-center my-auto mx-0">
+        <div class="col-lg-12col-md-12 col-ms-12 col-xs-12 text-center my-auto mx-0">
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit.
             At accusantium laborum natus vero distinctio fugit atque velit
@@ -27,36 +38,36 @@
       </div>
 
       <div class="row" id="solutions">
-        <div class="col-lg-12 col-md-12 col-xs-12 text-center my-auto mx-0">
+        <div class="col-lg-12 col-md-12 col-ms-12 col-xs-12 text-center my-auto mx-0">
           <Embed></Embed>
         </div>
       </div>
       <div class="row" id="gallery">
-        <div class="col-lg-12col-md-12 col-xs-12 text-center my-auto mx-0">
+        <div class="col-lg-12col-md-12 col-ms-12 col-xs-12 text-center my-auto mx-0">
           <Gallery></Gallery>
         </div>
       </div>
       <div class="row" id="distribution">
-        <div class="col-lg-12 col-md-12 col-xs-12 text-center my-auto mx-0">
+        <div class="col-lg-12 col-md-12 col-ms-12 col-xs-12 text-center my-auto mx-0">
           <Distribution></Distribution>
         </div>
       </div>
       <div class="row" id="maps">
-        <div class="col-lg-12col-md-12 col-xs-12 text-center my-auto mx-0">
+        <div class="col-lg-12col-md-12 col-ms-12 col-xs-12 text-center my-auto mx-0">
           <Maps></Maps>
         </div>
       </div>
       <div class="row" id="contact">
-        <div class="col-lg-12 col-md-12 col-xs-12 text-center my-auto mx-0">
+        <div class="col-lg-12 col-md-12 col-ms-12 col-xs-12 text-center my-auto mx-0">
           <Footer2></Footer2>
         </div>
       </div>
       <div class="row" id="footer">
-        <div class="col-lg-12col-md-12 col-xs-12 text-center my-auto mx-0">
+        <div class="col-lg-12col-md-12 col-ms-12 col-xs-12 text-center my-auto mx-0">
           <Footer></Footer>
         </div>
       </div>
-    </div>
+    </div>-->
   </div>
 </template>
 
@@ -67,7 +78,7 @@ import Nav from "./components/Nav.vue";
 import NavScroll from "./components/NavScroll.vue";
 import Contact from "./components/Contact.vue";
 import Distribution from "./components/Distribution.vue";
-import Feature3 from "./components/Feature3.vue";
+import Welcome from "./components/Welcome.vue";
 import Feature4 from "./components/Feature4.vue";
 import Embed from "./components/Embed.vue";
 import Maps from "./components/Maps.vue";
@@ -83,7 +94,7 @@ export default {
     NavScroll,
     Contact,
     Distribution,
-    Feature3,
+    Welcome,
     Feature4,
     Gallery,
     Carrusel,
@@ -106,7 +117,9 @@ $background-color: #fff;
 html,
 body {
   height: 100%;
-  margin: 0;
+  margin: 0 auto;
+  padding: 0;
+  background-color: $background-color;
 }
 
 #app {
@@ -117,6 +130,7 @@ body {
   font-family: "Montserrat", sans-serif; //tipo de fuente
   width: 100%; //las unidades del viewport se dividen en 100 partes de vw
   margin-left: 0px;
+  padding: 0px;
   height: 900vh; //muy importante multiplicar por el numero de sessiones, porque 100 es el tamaño del viewport
 }
 
@@ -136,19 +150,5 @@ ul {
 li {
   display: inline-block;
   margin: 0 10px;
-}
-
-//color del menu
-
-.nav-sticky {
-  position: -webkit-sticky;
-  position: sticky;
-  top: 0;
-  //background-color: yellow;
-  background-color: #891e67;
-  padding: 25px;
-  font-size: 20px;
-  z-index: 11;
-  margin-bottom: 20px;
 }
 </style>
