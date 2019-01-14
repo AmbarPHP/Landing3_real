@@ -2,13 +2,13 @@
   <div>
     <b-carousel
       id="carousel1"
-      style="text-shadow: 0px 0px 2px #00be00;"
+      style="text-shadow: 0px 0px 20px #00be00;"
       controls
       indicators
       background="#891e67"
       :interval="4000"
-      img-width="720"
-      img-height="383"
+      img-width="1024"
+      img-height="484"
       v-model="slide"
       @sliding-start="onSlideStart"
       @sliding-end="onSlideEnd"
@@ -43,6 +43,7 @@
           class="d-block img-fluid w-100"
           width="1024"
           height="480"
+          padding="0"
           src="../assets/images/infra2.jpeg"
           alt="image slot"
         >
