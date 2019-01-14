@@ -56,13 +56,16 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped lang="scss">
+$color-complementario: #891e67;
+$color-resaltado: #00be00;
+$background-color: #fff;
 .text-white {
   color: #fff !important;
 }
 
 #Gallery {
-  padding-top: 20px;
-  background-color: #164685;
+  padding-top: 20vh;
+  background-color: $background-color; //#164685;
   height: 100vh;
   width: 100%;
   top: 0;

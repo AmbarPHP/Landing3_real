@@ -12,16 +12,10 @@
         </p>
         <div class="social-media">
           <li>
-            <a class="fa fa-twitter hasTooltip" href="#" title data-original-title="Twitter"></a>
+            <font-awesome-icon :icon="{ prefix: 'fab', iconName: 'facebook' }"/>
           </li>
           <li>
-            <a class="fa fa-facebook hasTooltip" href="#" title data-original-title="Facebook"></a>
-          </li>
-          <li>
-            <a class="fa fa-google-plus hasTooltip" href="#" title data-original-title="GooglePlus"></a>
-          </li>
-          <li>
-            <a class="fa fa-youtube hasTooltip" href="#" title data-original-title="Youtube"></a>
+            <font-awesome-icon :icon="{ prefix: 'fab', iconName: 'twitter' }"/>
           </li>
         </div>
       </div>
@@ -84,7 +78,7 @@ $color-resaltado: #00be00;
 $color-complementario: #891e67;
 $background-color: #fff;
 #Footer2 {
-  background-color: #262e37; //$background-color; // //
+  background-color: $background-color; //#262e37; //$background-color; // //
   color: $color-complementario;
   //margin-left: 0vw;
   padding-top: 25vh; //un margen de separacion del 10 % del viewport
