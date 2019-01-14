@@ -33,7 +33,7 @@
           class="d-block img-fluid w-100"
           width="1024"
           height="480"
-          src="../assets/images/infra.jpeg"
+          src="../assets/images/infra6.jpeg"
           alt="image slot"
         >
       </b-carousel-slide>
@@ -79,7 +79,7 @@
       </b-carousel-slide>
 
       <!-- Slide with blank fluid image to maintain slide aspect ratio -->
-      <b-carousel-slide caption="Blank Image" img-blank img-alt="Blank image">
+      <b-carousel-slide caption="PROEBA PACKING" img-blank img-alt="Blank image">
         <p>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
           eros felis, tincidunt a tincidunt eget, convallis vel est. Ut pellentesque
@@ -98,6 +98,7 @@
 
 <script>
 export default {
+  name: "Carrusel",
   data() {
     return {
       slide: 0,

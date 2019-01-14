@@ -75,11 +75,9 @@
 import Footer2 from "./components/Footer2.vue";
 import Footer from "./components/Footer.vue";
 import Nav from "./components/Nav.vue";
-import NavScroll from "./components/NavScroll.vue";
 import Contact from "./components/Contact.vue";
 import Distribution from "./components/Distribution.vue";
 import Welcome from "./components/Welcome.vue";
-import Feature4 from "./components/Feature4.vue";
 import Embed from "./components/Embed.vue";
 import Maps from "./components/Maps.vue";
 import Gallery from "./components/Gallery.vue";
@@ -91,11 +89,8 @@ export default {
     Footer2,
     Footer,
     Nav,
-    NavScroll,
-    Contact,
     Distribution,
     Welcome,
-    Feature4,
     Gallery,
     Carrusel,
     Embed,
