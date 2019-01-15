@@ -14,7 +14,7 @@
             <a href="../assets/images/infra4.jpg">
               <img
                 class="img-fluid rouded"
-                src="../assets/images/infra4.jpeg"
+                src="../assets/images/infra5.jpeg"
                 alt="Lights"
                 style="height:100% width:100%"
               >
@@ -48,7 +48,7 @@
             <a href="../assets/images/haden.jpg">
               <img
                 class="img-fluid rouded"
-                src="../assets/images/infra4.jpeg"
+                src="../assets/images/infra3.jpeg"
                 alt="Lights"
                 style="height:100% width:100%"
               >

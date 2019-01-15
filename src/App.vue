@@ -9,65 +9,6 @@
     <Maps></Maps>
     <Footer2></Footer2>
     <Footer></Footer>
-
-    <!-- <div class="container margins">
-      <div class="row">
-        <div class="col-lg-12 col-md-12 col-ms-12 col-xs-12 text-center my-auto mx-0">
-          <Nav></Nav>
-        </div>
-      </div>
-      <div class="row" id="home">
-        <div class="col-lg-12 col-md-12 col-ms-12 col-xs-12 text-center my-auto mx-0">
-          <Welcome></Welcome>
-        </div>
-      </div>
-      <div class="row" id="home2">
-        <div class="col-lg-12col-md-12 col-ms-12 col-xs-12 text-center my-auto mx-0">
-          <Carrusel></Carrusel>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-lg-12col-md-12 col-ms-12 col-xs-12 text-center my-auto mx-0">
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit.
-            At accusantium laborum natus vero distinctio fugit atque velit
-            voluptatibus beatae! Aliquam praesentium placeat non maxime ab
-            provident officiis veniam tempora necessitatibus.
-          </p>
-        </div>
-      </div>
-
-      <div class="row" id="solutions">
-        <div class="col-lg-12 col-md-12 col-ms-12 col-xs-12 text-center my-auto mx-0">
-          <Video></Video>
-        </div>
-      </div>
-      <div class="row" id="gallery">
-        <div class="col-lg-12col-md-12 col-ms-12 col-xs-12 text-center my-auto mx-0">
-          <Gallery></Gallery>
-        </div>
-      </div>
-      <div class="row" id="distribution">
-        <div class="col-lg-12 col-md-12 col-ms-12 col-xs-12 text-center my-auto mx-0">
-          <Distribution></Distribution>
-        </div>
-      </div>
-      <div class="row" id="maps">
-        <div class="col-lg-12col-md-12 col-ms-12 col-xs-12 text-center my-auto mx-0">
-          <Maps></Maps>
-        </div>
-      </div>
-      <div class="row" id="contact">
-        <div class="col-lg-12 col-md-12 col-ms-12 col-xs-12 text-center my-auto mx-0">
-          <Footer2></Footer2>
-        </div>
-      </div>
-      <div class="row" id="footer">
-        <div class="col-lg-12col-md-12 col-ms-12 col-xs-12 text-center my-auto mx-0">
-          <Footer></Footer>
-        </div>
-      </div>
-    </div>-->
   </div>
 </template>
 
