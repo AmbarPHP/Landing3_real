@@ -4,10 +4,9 @@
     <h2 class="text-uppercase">Ve nuestros videos y conocenos</h2>
     <div>
       <b-embed
-        0
         type="iframe"
         aspect="16by9"
-        src="https://www.youtube.com/embed/zpOULjyy-n8?rel="
+        src="https://www.youtube.com/embed/zpOULjyy-n8?rel=0"
         allowfullscreen
       ></b-embed>
     </div>
