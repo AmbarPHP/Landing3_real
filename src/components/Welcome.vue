@@ -1,61 +1,28 @@
 <template>
   <section id="Welcome">
-    <div class="container-fluid no-padding">
-      <div class="row h-50">
-        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 table-bordered px-0 py-1 mx-0">
-          <Carrusel></Carrusel>
-        </div>
-      </div>
-      <div class="row h-50">
-        <div
-          class="col-xs-12 col-sm-12 col-md-12 col-lg-4 justify-content-center px-0 py-1 align-self-center table-bordered"
-        >
-          <div class="thumbnail">
-            <a href="../assets/images/infra4.jpg">
-              <img
-                class="img-fluid rouded"
-                src="../assets/images/infra5.jpeg"
-                alt="Lights"
-                style="height:100% width:100%"
-              >
-              <div class="caption">
-                <p>Lorem ipsum...</p>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="jumbotron">
+            <h2>PROEBA PACKING :</h2>
+            <h3>Venta ,Empaque y Transportación de Mango</h3>
+            <p>Bienvenidos cosechamos mangos de diferentes tipos, mangos seleccionados frescos y limpios , tenemos la mejores técnicas de empacado y distribución de mangos.</p>
+            <p>Contamos con personal para el servicios de recolección, procesamiento de las frutas, empaque a la medida y distribución.</p>
+            <p>
+              <a class="btn btn-primary btn-large" href="#">Aprede mas»</a>
+            </p>
+
+            <div class="row">
+              <div class="col-md-4 py-4">
+                <a class="btn btn-primary btn-large" href="#">NUESTROS CLIENTES »</a>
               </div>
-            </a>
-          </div>
-        </div>
-        <div
-          class="col-xs-12 col-sm-12 col-md-12 col-lg-4 justify-content-center px-0 py-1 align-self-center table-bordered"
-        >
-          <div class="thumbnail">
-            <a href="../assets/images/haden.jpg">
-              <img
-                class="img-fluid rouded"
-                src="../assets/images/infra4.jpeg"
-                alt="Lights"
-                style=" height:100% width:100%"
-              >
-              <div class="caption">
-                <p>Lorem ipsum...</p>
+              <div class="col-md-4">
+                <!-- <a class="btn btn-primary btn-large" href="#">VER NUESTRA GENTE »</a> -->
               </div>
-            </a>
-          </div>
-        </div>
-        <div
-          class="col-xs-12 col-sm-12 col-md-12 col-lg-4 justify-content-center px-0 py-1 align-self-center table-bordered"
-        >
-          <div class="thumbnail">
-            <a href="../assets/images/haden.jpg">
-              <img
-                class="img-fluid rouded"
-                src="../assets/images/infra3.jpeg"
-                alt="Lights"
-                style="height:100% width:100%"
-              >
-              <div class="caption">
-                <p>Lorem ipsum...</p>
+              <div class="col-md-4 py-4">
+                <a class="btn btn-primary btn-large" href="#">VACANTES»</a>
               </div>
-            </a>
+            </div>
           </div>
         </div>
       </div>
@@ -64,10 +31,8 @@
 </template>
 
 <script>
-import Carrusel from "./Carrusel";
 export default {
   name: "Welcome",
-  components: { Carrusel },
   props: {
     msg: String
   }
@@ -84,5 +49,28 @@ $font: "Open Sans", sans-serif; //'Montserrat', sans-serif;
 
 #Welcome {
   font-family: $font;
+
+  h2 {
+    font-weight: normal;
+    font-size: 48px;
+    font-weight: bold;
+    color: #fff;
+  }
+  h3 {
+    font-weight: normal;
+    font-size: 28px;
+    font-weight: bold;
+    color: $color-complementario;
+  }
+  p {
+    color: $color-complementario;
+    a {
+      color: $color-resaltado;
+    }
+  }
+
+  // a {
+  //   color: $color-resaltado;
+  // }
 }
 </style>

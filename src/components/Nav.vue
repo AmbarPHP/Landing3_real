@@ -1,8 +1,7 @@
 <template>
   <section id="Nav">
-    <img class="img-responsive fix" src="../assets/logo.png" alt="Feature img">
-    <nav class="navbar navbar-expand-lg fixed-top">
-      <!-- <img src="../assets/logo.png" alt="Logo" style="width:400px;"> -->
+    <!-- <nav class="navbar navbar-expand-lg fixed-top">
+      
       <a class="navbar-brand" href="#">ProebaPack</a>
       <button
         class="navbar-toggler"
@@ -40,6 +39,50 @@
           </li>
         </ul>
       </div>
+    </nav>-->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#bs-example-navbar-collapse-1"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <!-- <a class="navbar-brand" href="#">ProebaPack</a> -->
+      <img class="img-responsive fix" src="../assets/logo.png" alt="Feature img">
+      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+        <ul class="navbar-nav">
+          <li class="nav-item active">
+            <a class="nav-link" href="#">
+              BIENVENIDOS
+              <span class="sr-only">(current)</span>
+            </a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="#">SERVICIOS</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">PRODUCTOS</a>
+          </li>
+        </ul>
+
+        <ul class="navbar-nav ml-md-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="#">
+              UBICANOS
+              <span class="sr-only">(current)</span>
+            </a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="#">
+              CONTACTANOS
+              <span class="sr-only">(current)</span>
+            </a>
+          </li>
+        </ul>
+      </div>
     </nav>
   </section>
 </template>
@@ -63,7 +106,7 @@ $background-color: #fff;
   font-family: "Open Sans", sans-serif; //'Montserrat', sans-serif;
 
   a {
-    color: #ccc;
+    color: $color-complementario;
     font-size: 1.5rem;
   }
 

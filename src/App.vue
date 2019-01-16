@@ -2,6 +2,7 @@
   <div id="app">
     <Nav></Nav>
     <Welcome></Welcome>
+    <Servicios></Servicios>
     <!-- <Carrusel></Carrusel> -->
     <Video></Video>
     <Gallery></Gallery>
@@ -18,6 +19,7 @@ import Footer from "./components/Footer.vue";
 import Nav from "./components/Nav.vue";
 import Contact from "./components/Contact.vue";
 import Distribution from "./components/Distribution.vue";
+import Servicios from "./components/Servicios.vue";
 import Welcome from "./components/Welcome.vue";
 import Video from "./components/Video.vue";
 import Maps from "./components/Maps.vue";
@@ -31,6 +33,7 @@ export default {
     Footer,
     Nav,
     Distribution,
+    Servicios,
     Welcome,
     Gallery,
     Carrusel,
@@ -60,10 +63,7 @@ body {
 
 #app {
   //background-color: $background-color; //#262e37;
-  background: url(https://www.pexels.com/photo/snow-covered-mountain-1755243.jpg)
-    no-repeat 50% 50%;
-  color: #fff;
-  font-family: "Montserrat", sans-serif; //tipo de fuente
+
   width: 100%; //las unidades del viewport se dividen en 100 partes de vw
   margin-left: 0px;
   padding: 0px;
@@ -73,7 +73,7 @@ body {
 h1,
 h2 {
   font-weight: normal;
-  font-size: 28px;
+  font-size: 48px;
   font-weight: bold;
   line-height: 1.2307;
 }

@@ -1,0 +1,136 @@
+<template>
+  <section id="Servicios">
+    <!-- <div class="container-fluid no-padding">
+      <div class="row h-100">
+        <div
+          class="col-xs-12 col-sm-12 col-md-12 col-lg-12 justify-content-center px-0 py-1 align-self-center table-bordered"
+        >
+          <img
+            class="img-fluid rouded w-100 h-100"
+            src="../assets/images/Servicios.jpeg"
+            alt="Lights"
+            style=" height:100% width:100%"
+          >
+        </div>
+      </div>
+    </div>-->
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-md-12 py-4">
+          <h3 class="text-center text-success">NUESTROS SERVICIOS</h3>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-4">
+          <h3>RECOLECTAMOS</h3>
+          <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui.</p>
+          <p>
+            <a class="btn" href="#">Ver detalles »</a>
+          </p>
+        </div>
+        <div class="col-md-4">
+          <h3>EMPACAMOS</h3>
+          <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui.</p>
+          <p>
+            <a class="btn" href="#">Ver detalles »</a>
+          </p>
+        </div>
+        <div class="col-md-4">
+          <h3>DISTRIBUIMOS</h3>
+          <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui.</p>
+          <p>
+            <a class="btn" href="#">Ver detalles »</a>
+          </p>
+        </div>
+      </div>
+
+      <div class="container-fluid no-padding">
+        <div class="row h-100">
+          <div
+            class="col-xs-12 col-sm-12 col-md-12 col-lg-12 justify-content-center px-0 py-1 align-self-center table-bordered"
+          >
+            <img
+              class="img-fluid rouded w-100 h-100"
+              src="../assets/images/info_servicios.png"
+              alt="Lights"
+              style=" height:100% width:100%"
+            >
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-12">
+          <h3 class="text-center text-success">COMO FUNCIONA</h3>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-4">
+          <h2>Diseño de embalaje</h2>
+          <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui.</p>
+          <p>
+            <a class="btn" href="#">View details »</a>
+          </p>
+        </div>
+        <div class="col-md-4">
+          <h2>Preparación del producto</h2>
+          <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui.</p>
+          <p>
+            <a class="btn" href="#">View details »</a>
+          </p>
+        </div>
+        <div class="col-md-4">
+          <h2>Transporte y Distribución</h2>
+          <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui.</p>
+          <p>
+            <a class="btn" href="#">View details »</a>
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+</template>
+
+<script>
+export default {
+  name: "Servicios",
+  props: {
+    msg: String
+  }
+};
+</script>
+
+<!-- Add "scoped" attribute to limit CSS to this component only -->
+<style scoped lang="scss">
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:300");
+$color-resaltado: #00be00;
+$color-complementario: #891e67;
+$background-color: #fff;
+$font: "Open Sans", sans-serif; //'Montserrat', sans-serif;
+
+#Servicios {
+  font-family: $font;
+
+  h2 {
+    font-weight: normal;
+    font-size: 48px;
+    font-weight: bold;
+    color: #fff;
+  }
+  h3 {
+    font-weight: normal;
+    font-size: 28px;
+    font-weight: bold;
+    color: $color-complementario;
+  }
+  p {
+    color: $color-complementario;
+    a {
+      color: $color-resaltado;
+    }
+  }
+
+  // a {
+  //   color: $color-resaltado;
+  // }
+}
+</style>
