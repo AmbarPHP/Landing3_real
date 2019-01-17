@@ -1,5 +1,5 @@
 <template>
-  <section id="Navv2">
+  <section id="Nav3">
     <b-navbar toggleable="true" toggle-breakpoint="lg" fixed="top" type="light" variant="light">
       <b-navbar-toggle target="nav_collapse"></b-navbar-toggle>
 
@@ -31,7 +31,7 @@
 
 <script>
 export default {
-  name: "Navv2",
+  name: "Nav3",
   props: {
     msg: String
   }
@@ -44,21 +44,17 @@ export default {
 $color-complementario: #891e67;
 $color-resaltado: #00be00;
 $background-color: #fff;
-#Navv2 {
+#Nav3 {
   font-family: "Open Sans", sans-serif; //'Montserrat', sans-serif;
 
   a {
     color: $color-complementario;
     font-size: 1.5rem;
-    text-transform: uppercase;
   }
 
   nav.navbar {
     background: $background-color;
     height: 15vh;
-    width: 100%;
-    border-color: #ffffff;
-    display: inline-block; //para que no se traslape e menu
   }
   .nav-link,
   .navbar-brand {
@@ -69,10 +65,6 @@ $background-color: #fff;
     margin-right: 1em !important;
   }
   .nav-link:hover {
-    background: $background-color;
-    color: $color-resaltado;
-  }
-  .nav-link:focus {
     background: $background-color;
     color: $color-resaltado;
   }

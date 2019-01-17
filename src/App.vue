@@ -8,13 +8,11 @@
     <About></About>
     <Gallery></Gallery>
     <Footer2></Footer2>
-    <Footer></Footer>
   </div>
 </template>
 
 <script>
 import Footer2 from "./components/Footer2.vue";
-import Footer from "./components/Footer.vue";
 import Navv2 from "./components/Navv2.vue";
 import About from "./components/About.vue";
 import Servicios from "./components/Servicios.vue";
@@ -25,7 +23,6 @@ export default {
   name: "app",
   components: {
     Footer2,
-    Footer,
     Navv2,
     About,
     Servicios,

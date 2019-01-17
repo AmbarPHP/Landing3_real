@@ -1,8 +1,13 @@
 <template>
   <!-- Footer -->
   <section id="Footer2">
+    <div class="row">
+      <div class="col-md-12">
+        <h3 class="text-center tittle-footer">CONTACTANOS</h3>
+      </div>
+    </div>
     <div class="row footer">
-      <div class="col-lg-3 text-center">
+      <!-- <div class="col-lg-3 text-center">
         <p class="tittle-footer">PROEBA PACKING</p>
         <p class="content-footer data">
           With our whole family originally coming to the US from Ireland,
@@ -28,10 +33,15 @@
           <p class="content-footer news">Tips for Taking Care of the Livestock</p>
           <p class="content-footer data">26 NOV 2018</p>
         </div>
+      </div>-->
+      <div class="col-lg-6 text-center">
+        <div>
+          <Maps></Maps>
+        </div>
       </div>
       <div class="col-lg-3 text-center">
         <div>
-          <p class="tittle-footer">Contactanos</p>
+          <p class="tittle-content">Direccion:</p>
 
           <p class="content-footer data">11559 Ventura Boulevard, Studio City, CA 91604</p>
           <p class="content-footer data">Email: proeba@demolink.org</p>
@@ -42,8 +52,8 @@
       </div>
       <div class="col-lg-3 text-center">
         <div>
-          <p class="tittle-footer">Suscribase</p>
-          <p class="content-footer data">Follow Blog Updates & Get All the Special Offers!</p>
+          <p class="tittle-content">Suscribase</p>
+          <p class="content-footer data">Reciba noticias & Reciba correos con ofertas!</p>
           <div class="contact-form">
             <form action="#" method="post">
               <div class="form-group">
@@ -60,16 +70,19 @@
         </div>
       </div>
     </div>
-    <Maps></Maps>
+
+    <Footer></Footer>
   </section>
 </template>
 
 <script>
 import Maps from "../components/Maps.vue";
+import Footer from "../components/Footer.vue";
 export default {
   name: "Footer2",
   components: {
-    Maps
+    Maps,
+    Footer
   },
   props: {
     msg: String
@@ -79,25 +92,37 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped lang="scss">
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:300");
 $color-resaltado: #00be00;
 $color-complementario: #891e67;
 $background-color: #fff;
+$font: "Open Sans", sans-serif;
+
 #Footer2 {
-  background-color: $background-color; //#262e37; //$background-color; // //
+  display: inline-block;
+  font-family: $font;
+  background-color: $color-complementario;
   color: $color-complementario;
   //margin-left: 0vw;
-  padding-top: 5vh; //un margen de separacion del 10 % del viewport
-  padding-bottom: 5vh; //dejar espacion entre este componete y el footer
-  height: 100vh; //50% del view port
+  padding-bottom: 5vh; //un margen de separacion del 10 % del viewport
+  padding-top: 5vh; //dejar espacion entre este componete y el footer
+  height: 150vh; //50% del view port
   width: 100%; // trate de darle un ancho de el view port
 }
+
 .tittle-footer {
-  margin-top: 20vh;
   font-size: 28px;
-  font-family: "Montserrat", sans-serif;
   font-weight: bold;
   line-height: 1.2307;
-  color: $color-complementario;
+  color: $background-color;
+  padding-bottom: 5vh;
+}
+.tittle-content {
+  font-size: 28px;
+  font-weight: bold;
+  line-height: 1.2307;
+  color: $background-color;
+  padding-top: 15vh;
 }
 .content-footer {
   padding-left: 0vw;
@@ -111,7 +136,8 @@ $background-color: #fff;
   font-size: 18px;
 }
 .data {
-  color: $color-complementario;
+  color: $background-color;
+  font-size: 18px;
 }
 .latestNews {
   //cambia el tipo de fuente a todo lo que esta en este div

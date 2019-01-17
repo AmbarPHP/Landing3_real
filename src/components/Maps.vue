@@ -30,6 +30,7 @@ export default {
 }
 
 #Maps {
+  display: block;
   padding-top: 20px;
   //background-color: #42b983;
   height: 100vh;

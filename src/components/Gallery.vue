@@ -3,7 +3,7 @@
 <template>
   <!-- feature -->
   <section id="Gallery">
-    <div class="container-fluid">
+    <!-- <div class="container-fluid">
       <div class="row">
         <div class="col-md-12">
           <h3 class="text-center text-success">NUESTROS PRODUCTOS</h3>
@@ -88,6 +88,113 @@
           </div>
         </div>
       </div>
+    </div>-->
+    <!-- Page Content -->
+    <div class="container-fluid p-0">
+      <div class="row no-gutters popup-gallery">
+        <div class="col-lg-4 col-sm-6">
+          <a class="portfolio-box" href="img/portfolio/fullsize/5.jpg">
+            <img
+              class="img-fluid"
+              src="../assets/images/galeria/mango.png"
+              width="600"
+              height="200"
+              alt
+            >
+            <div class="portfolio-box-caption">
+              <div class="portfolio-box-caption-content">
+                <div class="project-category text-faded">Mangos Tipo:</div>
+                <div class="project-name">Manila</div>
+              </div>
+            </div>
+          </a>
+        </div>
+        <div class="col-lg-4 col-sm-6">
+          <a class="portfolio-box" href="img/portfolio/fullsize/5.jpg">
+            <img
+              class="img-fluid"
+              src="../assets/images/galeria/mango2.png"
+              width="600"
+              height="200"
+              alt
+            >
+            <div class="portfolio-box-caption">
+              <div class="portfolio-box-caption-content">
+                <div class="project-category text-faded">Mangos Tipo:</div>
+                <div class="project-name">Haden</div>
+              </div>
+            </div>
+          </a>
+        </div>
+        <div class="col-lg-4 col-sm-6">
+          <a class="portfolio-box" href="img/portfolio/fullsize/5.jpg">
+            <img
+              class="img-fluid"
+              src="../assets/images/galeria/mango3.png"
+              width="600"
+              height="200"
+              alt
+            >
+            <div class="portfolio-box-caption">
+              <div class="portfolio-box-caption-content">
+                <div class="project-category text-faded">Mangos Tipo:</div>
+                <div class="project-name">Ataulfo</div>
+              </div>
+            </div>
+          </a>
+        </div>
+        <div class="col-lg-4 col-sm-6">
+          <a class="portfolio-box" href="img/portfolio/fullsize/5.jpg">
+            <img
+              class="img-fluid"
+              src="../assets/images/galeria/mango4.png"
+              width="600"
+              height="200"
+              alt
+            >
+            <div class="portfolio-box-caption">
+              <div class="portfolio-box-caption-content">
+                <div class="project-category text-faded">Mangos Tipo:</div>
+                <div class="project-name">Tommy</div>
+              </div>
+            </div>
+          </a>
+        </div>
+        <div class="col-lg-4 col-sm-6">
+          <a class="portfolio-box" href="img/portfolio/fullsize/5.jpg">
+            <img
+              class="img-fluid"
+              src="../assets/images/galeria/mango5.png"
+              width="600"
+              height="200"
+              alt
+            >
+            <div class="portfolio-box-caption">
+              <div class="portfolio-box-caption-content">
+                <div class="project-category text-faded">Mangos Tipo:</div>
+                <div class="project-name">Keitt</div>
+              </div>
+            </div>
+          </a>
+        </div>
+        <div class="col-lg-4 col-sm-6">
+          <a class="portfolio-box" href="img/portfolio/fullsize/5.jpg">
+            <img
+              class="img-fluid"
+              src="../assets/images/galeria/mango6.png"
+              width="600"
+              height="200"
+              alt
+            >
+            <div class="portfolio-box-caption">
+              <div class="portfolio-box-caption-content">
+                <div class="project-category text-faded">Mangos Tipo:</div>
+                <div class="project-name">Kent</div>
+              </div>
+            </div>
+          </a>
+        </div>
+      </div>
     </div>
   </section>
 </template>
@@ -102,15 +209,17 @@ export default {
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
-<style scoped lang="scss">
+<style scoped lang="scss" >
 $color-complementario: #891e67;
 $color-resaltado: #00be00;
 $background-color: #fff;
+@import "../assets/scss/galeria.scss";
 
 #Gallery {
+  display: inline-block;
   padding-top: 10vh;
   background-color: $background-color; //#164685;
-  height: 100vh;
+  height: 120vh;
   width: 100%;
   padding-top: 15vh;
   top: 0;
