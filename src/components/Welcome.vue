@@ -8,13 +8,10 @@
             <h3>Venta ,Empaque y Transportación de Mango</h3>
             <p>Bienvenidos cosechamos mangos de diferentes tipos, mangos seleccionados frescos y limpios , tenemos la mejores técnicas de empacado y distribución de mangos.</p>
             <p>Contamos con personal para el servicios de recolección, procesamiento de las frutas, empaque a la medida y distribución.</p>
-            <p>
-              <a class="btn btn-primary btn-large" href="#">Aprede mas»</a>
-            </p>
 
             <div class="row">
               <div class="col-md-4 py-4">
-                <a class="btn btn-primary btn-large" href="#">NUESTROS CLIENTES »</a>
+                <a class="btn btn-primary btn-large" href="#About">VIDEO PROMO »</a>
               </div>
               <div class="col-md-4">
                 <!-- <a class="btn btn-primary btn-large" href="#">VER NUESTRA GENTE »</a> -->
@@ -49,6 +46,7 @@ $font: "Open Sans", sans-serif; //'Montserrat', sans-serif;
 
 #Welcome {
   font-family: $font;
+  padding-top: 15vh;
 
   h2 {
     font-weight: normal;
@@ -66,6 +64,9 @@ $font: "Open Sans", sans-serif; //'Montserrat', sans-serif;
     color: $color-complementario;
     a {
       color: $color-resaltado;
+    }
+    .jumbotron {
+      background-color: $color-complementario;
     }
   }
 

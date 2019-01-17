@@ -60,12 +60,17 @@
         </div>
       </div>
     </div>
+    <Maps></Maps>
   </section>
 </template>
 
 <script>
+import Maps from "../components/Maps.vue";
 export default {
   name: "Footer2",
+  components: {
+    Maps
+  },
   props: {
     msg: String
   }
@@ -81,8 +86,8 @@ $background-color: #fff;
   background-color: $background-color; //#262e37; //$background-color; // //
   color: $color-complementario;
   //margin-left: 0vw;
-  padding-top: 25vh; //un margen de separacion del 10 % del viewport
-  padding-bottom: 25vh; //dejar espacion entre este componete y el footer
+  padding-top: 5vh; //un margen de separacion del 10 % del viewport
+  padding-bottom: 5vh; //dejar espacion entre este componete y el footer
   height: 100vh; //50% del view port
   width: 100%; // trate de darle un ancho de el view port
 }

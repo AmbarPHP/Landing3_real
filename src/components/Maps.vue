@@ -39,7 +39,7 @@ export default {
   // left: 0;
   //opacity: 0.3;//opacidad para dar algo de diseño
   h2 {
-    padding-top: 40px;
+    //padding-top: 40px;
   }
 }
 img.fix {

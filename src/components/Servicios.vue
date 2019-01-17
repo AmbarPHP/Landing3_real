@@ -65,6 +65,15 @@
       </div>
       <div class="row">
         <div class="col-md-4">
+          <div class="icon">
+            <i
+              style="background-color:transparent;
+              border-color:transparent;
+              height:auto;width: 68px;
+              line-height:normal;color:#ff9800;font-size:68px;"
+              class="fa fontawesome-icon fa-laptop circle-no"
+            >sdfasdf</i>
+          </div>
           <h2>Diseño de embalaje</h2>
           <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui.</p>
           <p>
@@ -109,12 +118,13 @@ $font: "Open Sans", sans-serif; //'Montserrat', sans-serif;
 
 #Servicios {
   font-family: $font;
+  padding-top: 15vh;
 
   h2 {
     font-weight: normal;
-    font-size: 48px;
+    font-size: 18px;
     font-weight: bold;
-    color: #fff;
+    color: $color-complementario;
   }
   h3 {
     font-weight: normal;

@@ -1,13 +1,12 @@
 <template>
   <div id="app">
-    <Nav></Nav>
+    <Navv2></Navv2>
     <Welcome></Welcome>
     <Servicios></Servicios>
     <!-- <Carrusel></Carrusel> -->
-    <Video></Video>
+    <!-- <Video></Video> -->
+    <About></About>
     <Gallery></Gallery>
-    <Distribution></Distribution>
-    <Maps></Maps>
     <Footer2></Footer2>
     <Footer></Footer>
   </div>
@@ -16,29 +15,22 @@
 <script>
 import Footer2 from "./components/Footer2.vue";
 import Footer from "./components/Footer.vue";
-import Nav from "./components/Nav.vue";
-import Contact from "./components/Contact.vue";
-import Distribution from "./components/Distribution.vue";
+import Navv2 from "./components/Navv2.vue";
+import About from "./components/About.vue";
 import Servicios from "./components/Servicios.vue";
 import Welcome from "./components/Welcome.vue";
-import Video from "./components/Video.vue";
-import Maps from "./components/Maps.vue";
 import Gallery from "./components/Gallery.vue";
-import Carrusel from "./components/Carrusel.vue";
 
 export default {
   name: "app",
   components: {
     Footer2,
     Footer,
-    Nav,
-    Distribution,
+    Navv2,
+    About,
     Servicios,
     Welcome,
-    Gallery,
-    Carrusel,
-    Video,
-    Maps
+    Gallery
   },
   data() {
     return {
