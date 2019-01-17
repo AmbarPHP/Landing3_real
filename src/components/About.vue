@@ -117,7 +117,7 @@ $font: "Open Sans", sans-serif; //'Montserrat', sans-serif;
   font-family: $font;
   padding-top: 15vh;
   background-color: #891e67;
-  height: 100vh;
+  //height: 100vh;
 
   h1 {
     font-weight: normal;
@@ -153,7 +153,7 @@ $font: "Open Sans", sans-serif; //'Montserrat', sans-serif;
 
   .nav-link {
     display: block;
-    padding: 0.5rem 1rem;
+    //padding: 0.5rem 1rem;
     a {
       color: #fff;
     }

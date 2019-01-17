@@ -31,10 +31,10 @@ export default {
 
 #Maps {
   display: block;
-  padding-top: 20px;
+
   //background-color: #42b983;
-  height: 100vh;
-  margin-top: 5vh;
+  //height: 100vh;//se lo quite para que se adapte al contenido
+  //margin-top: 5vh;
   width: 100%;
   // top: 0;
   // left: 0;

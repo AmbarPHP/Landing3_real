@@ -5,7 +5,7 @@
       <div class="col-lg-6 h-100 text-center text-lg-left my-auto">
         <ul class="list-inline mb-2">
           <li class="list-inline-item">
-            <a href="#">About</a>
+            <a href="#">Conocenos</a>
           </li>
           <li class="list-inline-item">&sdot;</li>
           <li class="list-inline-item">
@@ -20,7 +20,7 @@
             <a href="#">Privacy Policy</a>
           </li>
         </ul>
-        <p class="text-muted small mb-4 mb-lg-0">&copy; Your Website 2018. All Rights Reserved.</p>
+        <p class="small mb-4 mb-lg-0">&copy; Your Website 2018. All Rights Reserved.</p>
       </div>
       <div class="col-lg-6 h-100 text-center text-lg-right my-auto">
         <ul class="list-inline mb-0">
@@ -60,7 +60,7 @@ $color-resaltado: #00be00;
 $color-complementario: #891e67;
 $background-color: #fff;
 #Footer {
-  height: 10vh;
+  //height: 10vh;//se lo quite para que se adapte al contenido
 }
 
 ul {
@@ -71,7 +71,13 @@ li {
   display: inline-block;
   margin: 0 10px;
 }
-a {
-  color: $color-complementario; //#42b983;
+li:hover {
+  display: inline-block;
+  margin: 0 10px;
+  color: chocolate;
+}
+a,
+p {
+  color: #fff; //#42b983;
 }
 </style>

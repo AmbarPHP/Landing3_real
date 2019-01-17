@@ -91,6 +91,9 @@
     </div>-->
     <!-- Page Content -->
     <div class="container-fluid p-0">
+      <div class="col-md-12 py-4">
+        <h3 class="text-center text-success">GALERIA DE PRODUCTOS</h3>
+      </div>
       <div class="row no-gutters popup-gallery">
         <div class="col-lg-4 col-sm-6">
           <a class="portfolio-box" href="img/portfolio/fullsize/5.jpg">

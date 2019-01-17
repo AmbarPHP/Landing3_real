@@ -1,6 +1,6 @@
 <template>
   <section id="Welcome">
-    <div class="container-fluid">
+    <!-- <div class="container-fluid">
       <div class="row">
         <div class="col-md-12">
           <div class="jumbotron">
@@ -14,16 +14,45 @@
                 <a class="btn btn-primary btn-large" href="#About">VIDEO PROMO »</a>
               </div>
               <div class="col-md-4">
-                <!-- <a class="btn btn-primary btn-large" href="#">VER NUESTRA GENTE »</a> -->
+                <a class="btn btn-primary btn-large" href="#">VER NUESTRA GENTE »</a>
               </div>
               <div class="col-md-4 py-4">
-                <a class="btn btn-primary btn-large" href="#">VACANTES»</a>
+                <a class="btn btn-primary btn-large" href="#">CONTACTANOS»</a>
               </div>
             </div>
           </div>
         </div>
       </div>
-    </div>
+    </div>-->
+    <header class="masthead">
+      <div class="container h-100">
+        <div class="row h-100">
+          <div class="col-lg-7 my-auto">
+            <div class="header-content mx-auto">
+              <h2>PROEBA PACKING :</h2>
+              <h1 class="mb-5">Venta ,Empaque y Transportación de Mango</h1>
+              <p>Bienvenidos cosechamos mangos de diferentes tipos, mangos seleccionados frescos y limpios , tenemos la mejores técnicas de empacado y distribución de mangos.</p>
+              <p>Contamos con personal para el servicios de recolección, procesamiento de las frutas, empaque a la medida y distribución.</p>
+            </div>
+          </div>
+          <div class="col-lg-5 my-auto">
+            <div class="device-container">
+              <div class="device-mockup iphone6_plus portrait white">
+                <div class="device">
+                  <div class="screen">
+                    <!-- Demo image for screen mockup, you can put an image here, some HTML, an animation, video, or anything else! -->
+                    <img src="../assets/images/logo.png" class="img-fluid" alt>
+                  </div>
+                  <div class="button">
+                    <!-- You can hook the "home button" to some JavaScript events or just remove it -->
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
   </section>
 </template>
 
@@ -39,6 +68,7 @@ export default {
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped lang="scss">
 @import url("https://fonts.googleapis.com/css?family=Open+Sans:300");
+@import "../assets/scss/masthead.scss";
 $color-resaltado: #00be00;
 $color-complementario: #891e67;
 $background-color: #fff;
@@ -58,10 +88,11 @@ $font: "Open Sans", sans-serif; //'Montserrat', sans-serif;
     font-weight: normal;
     font-size: 28px;
     font-weight: bold;
-    color: $color-complementario;
+    color: #fff;
   }
   p {
-    color: $color-complementario;
+    color: #fff;
+    font-size: 1.5rem;
     a {
       color: $color-resaltado;
     }

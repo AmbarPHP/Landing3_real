@@ -1,6 +1,6 @@
 <template>
   <!-- Footer -->
-  <section id="Footer2">
+  <section id="ContactUs">
     <div class="row">
       <div class="col-md-12">
         <h3 class="text-center tittle-footer">CONTACTANOS</h3>
@@ -34,12 +34,12 @@
           <p class="content-footer data">26 NOV 2018</p>
         </div>
       </div>-->
-      <div class="col-lg-6 text-center">
+      <div class="col-lg-6 col-md-6 col-sm-12 text-center">
         <div>
           <Maps></Maps>
         </div>
       </div>
-      <div class="col-lg-3 text-center">
+      <div class="col-lg-3 col-md-3 col-sm-12 text-center">
         <div>
           <p class="tittle-content">Direccion:</p>
 
@@ -50,7 +50,7 @@
           <p class="content-footer data">Fax: 311-748-6050</p>
         </div>
       </div>
-      <div class="col-lg-3 text-center">
+      <div class="col-lg-3 col-md-3 col-sm-12 text-center">
         <div>
           <p class="tittle-content">Suscribase</p>
           <p class="content-footer data">Reciba noticias & Reciba correos con ofertas!</p>
@@ -79,7 +79,7 @@
 import Maps from "../components/Maps.vue";
 import Footer from "../components/Footer.vue";
 export default {
-  name: "Footer2",
+  name: "ContactUs",
   components: {
     Maps,
     Footer
@@ -98,7 +98,7 @@ $color-complementario: #891e67;
 $background-color: #fff;
 $font: "Open Sans", sans-serif;
 
-#Footer2 {
+#ContactUs {
   display: inline-block;
   font-family: $font;
   background-color: $color-complementario;
@@ -106,7 +106,7 @@ $font: "Open Sans", sans-serif;
   //margin-left: 0vw;
   padding-bottom: 5vh; //un margen de separacion del 10 % del viewport
   padding-top: 5vh; //dejar espacion entre este componete y el footer
-  height: 150vh; //50% del view port
+  //height: 100%; // si no pongo el height se adapta al contenido
   width: 100%; // trate de darle un ancho de el view port
 }
 
@@ -122,7 +122,7 @@ $font: "Open Sans", sans-serif;
   font-weight: bold;
   line-height: 1.2307;
   color: $background-color;
-  padding-top: 15vh;
+  padding-bottom: 15vh;
 }
 .content-footer {
   padding-left: 0vw;
