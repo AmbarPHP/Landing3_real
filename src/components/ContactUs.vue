@@ -110,7 +110,7 @@ $font: "Open Sans", sans-serif;
   background-color: $color-complementario;
   color: $color-complementario;
   margin-top: 1vh;
-  height: 100vh; // si no pongo el height se adapta al contenido
+
   width: 100%; // trate de darle un ancho de el view port
 
   h1 {
