@@ -3,7 +3,7 @@
   <section id="About">
     <div class="container-fluid">
       <div class="row">
-        <div class="p-4 col-lg-4">
+        <div class="p-2 col-lg-4">
           <h4 class="mb-3 text-white">Heading 4</h4>
           <div class="blockquote text-muted">
             <p
@@ -18,7 +18,7 @@
         </div>
       </div>
       <div class="row">
-        <div class="p-4 col-lg-4">
+        <div class="p-2 col-lg-4">
           <h4 class="mb-3">
             <b>Bold Heading 4</b>
           </h4>
@@ -29,7 +29,7 @@
             <li class="my-1">Four - Lorem ipsum dolor sit amet</li>
           </ul>
         </div>
-        <div class="p-md-4 col-lg-8">
+        <div class="p-md-2 col-lg-8">
           <h4 class="mb-3">
             <b>Bold Heading 4</b>
           </h4>
