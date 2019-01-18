@@ -4,14 +4,27 @@
     <div class="container-fluid">
       <div class="row">
         <div class="p-2 col-lg-4">
-          <h4 class="mb-3 text-white">Heading 4</h4>
+          <h4 class="mb-3 text-white">Proebapack</h4>
           <div class="blockquote text-muted">
-            <p
-              class="mb-0"
-            >Blockquoute -&nbsp;Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip.</p>
-            <div class="blockquote-footer">Someone famous in My memories</div>
+            <h2>"Constantemente estamos creciendo una gran compañia"</h2>
+            <p>Ubicados en el municipio 5 de Mayo, Tepic, Nayarit.</p>
+            <p>
+              Nuestra empresa surge por la necesidad de crear empaque de calidad,
+              de exportar nuestro productos al extranjero
+              La Empacadora sustentable, abre sus puerta un 15 de Mayo 2018,
+              gracias el apoyo de nuestro socio ALGUIEN propietario de EMPRESA.
+              Area de 4000 mtrs cuadrados
+              Con 3 naves,20x60 cada una con :
+              Espacios lavador, separacion de fruta, area de reposo
+              cuartos de conservacion
+              maquinaria para cajas de carton
+            </p>
+            <p>
+              Nuestros clientes son Frutera frog, Robison Fresh
+              Actualmente tenemos la capacidad de produccion:3 cargas al dia
+              Nuestra Meta es :??
+            </p>
           </div>
-          <a class="btn btn-info" href="#">Button</a>
         </div>
         <div class="col-md-8 align-self-center">
           <Video></Video>
