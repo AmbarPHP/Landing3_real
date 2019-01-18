@@ -92,7 +92,9 @@
     <!-- Page Content -->
     <div class="container-fluid p-0">
       <div class="col-md-12 py-4">
-        <h3 class="text-center text-success">GALERIA DE PRODUCTOS</h3>
+        <div class="col-md-12 py-4">
+          <h1 class="text-center">GALERIA DE PRODUCTOS</h1>
+        </div>
       </div>
       <div class="row no-gutters popup-gallery">
         <div class="col-lg-4 col-sm-6">
@@ -213,6 +215,11 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped lang="scss" >
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:300");
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:300");
+@import url("https://fonts.googleapis.com/css?family=Raleway:700");
+$font: "Open Sans", sans-serif; //'Montserrat', sans-serif;
+$font_relaway: "font-family: 'Raleway', sans-serif;";
 $color-complementario: #891e67;
 $color-resaltado: #00be00;
 $background-color: #fff;
@@ -220,16 +227,22 @@ $background-color: #fff;
 
 #Gallery {
   display: inline-block;
-  padding-top: 10vh;
-  background-color: $background-color; //#164685;
+  font-family: $font;
+  margin-top: 1vh;
   height: 120vh;
-  width: 100%;
-  padding-top: 15vh;
-  top: 0;
-  left: 0;
   //opacity: 0.3;
+  h1 {
+    font-weight: 400;
+    font-size: 2rem;
+    font-weight: bold;
+    color: $color-resaltado;
+    padding-bottom: 5vh;
+    padding-top: 15vh;
+    font-family: $font_relaway;
+  }
   h2 {
-    padding-top: 40px;
+    font-size: 1.5rem;
+    font-weight: bold;
     color: $color-complementario;
   }
 }

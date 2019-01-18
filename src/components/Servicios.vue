@@ -17,26 +17,26 @@
     <div class="container-fluid">
       <div class="row">
         <div class="col-md-12 py-4">
-          <h3 class="text-center text-success">NUESTROS SERVICIOS</h3>
+          <h1 class="text-center">NUESTROS SERVICIOS</h1>
         </div>
       </div>
       <div class="row">
-        <div class="col-md-4">
-          <h3>RECOLECTAMOS</h3>
+        <div class="col-lg-4 col-md-12 col-sm-12">
+          <h2>RECOLECTAMOS</h2>
           <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui.</p>
           <p>
             <a class="btn" href="#">Ver detalles »</a>
           </p>
         </div>
-        <div class="col-md-4">
-          <h3>EMPACAMOS</h3>
+        <div class="col-lg-4 col-md-12 col-sm-12">
+          <h2>EMPACAMOS</h2>
           <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui.</p>
           <p>
             <a class="btn" href="#">Ver detalles »</a>
           </p>
         </div>
-        <div class="col-md-4">
-          <h3>DISTRIBUIMOS</h3>
+        <div class="col-lg-4 col-md-12 col-sm-12">
+          <h2>DISTRIBUIMOS</h2>
           <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui.</p>
           <p>
             <a class="btn" href="#">Ver detalles »</a>
@@ -60,7 +60,7 @@
       </div>
       <div class="row">
         <div class="col-md-12">
-          <h3 class="text-center text-success">COMO FUNCIONA</h3>
+          <h2 class="text-center">COMO FUNCIONA</h2>
         </div>
       </div>
       <div class="row">
@@ -111,24 +111,32 @@ export default {
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped lang="scss">
 @import url("https://fonts.googleapis.com/css?family=Open+Sans:300");
+@import url("https://fonts.googleapis.com/css?family=Raleway:700");
+$font: "Open Sans", sans-serif; //'Montserrat', sans-serif;
+$font_relaway: "font-family: 'Raleway', sans-serif;";
 $color-resaltado: #00be00;
 $color-complementario: #891e67;
 $background-color: #fff;
 $font: "Open Sans", sans-serif; //'Montserrat', sans-serif;
-
+$font_relaway: "font-family: 'Raleway', sans-serif;";
 #Servicios {
-  font-family: $font;
-  padding-top: 15vh;
+  font-family: $font_relaway;
+  margin-top: 1vh;
+  //padding: 15vh;
+  //height: 300vh;
 
-  h2 {
-    font-weight: normal;
-    font-size: 18px;
+  h1 {
+    font-weight: 400;
+    font-size: 2rem;
     font-weight: bold;
-    color: $color-complementario;
+    color: $color-resaltado;
+    padding-bottom: 5vh;
+    padding-top: 15vh;
+    font-family: $font_relaway;
   }
-  h3 {
-    font-weight: normal;
-    font-size: 28px;
+  h2 {
+    padding-top: 5vh;
+    font-size: 1.5rem;
     font-weight: bold;
     color: $color-complementario;
   }

@@ -7,7 +7,7 @@
       indicators
       background="#891e67"
       :interval="4000"
-      img-width="1024"
+      img-width="660"
       img-height="484"
       v-model="slide"
       @sliding-start="onSlideStart"
@@ -31,7 +31,7 @@
         <img
           slot="img"
           class="d-block img-fluid w-100"
-          width="1024"
+          width="660"
           height="480"
           src="../assets/images/infra6.jpeg"
           alt="image slot"
@@ -41,7 +41,7 @@
         <img
           slot="img"
           class="d-block img-fluid w-100"
-          width="1024"
+          width="660"
           height="480"
           padding="0"
           src="../assets/images/infra2.jpeg"
@@ -52,7 +52,7 @@
         <img
           slot="img"
           class="d-block img-fluid w-100"
-          width="1024"
+          width="660"
           height="480"
           src="../assets/images/infra3.jpeg"
           alt="image slot"
@@ -62,7 +62,7 @@
         <img
           slot="img"
           class="d-block img-fluid w-100"
-          width="1024"
+          width="660"
           height="480"
           src="../assets/images/infra4.jpeg"
           alt="image slot"
@@ -72,7 +72,7 @@
         <img
           slot="img"
           class="d-block img-fluid w-100"
-          width="1024"
+          width="660"
           height="480"
           src="../assets/images/infra5.jpeg"
           alt="image slot"

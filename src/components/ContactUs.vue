@@ -93,6 +93,9 @@ export default {
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped lang="scss">
 @import url("https://fonts.googleapis.com/css?family=Open+Sans:300");
+@import url("https://fonts.googleapis.com/css?family=Raleway:700");
+$font: "Open Sans", sans-serif; //'Montserrat', sans-serif;
+$font_relaway: "font-family: 'Raleway', sans-serif;";
 $color-resaltado: #00be00;
 $color-complementario: #891e67;
 $background-color: #fff;
@@ -101,13 +104,29 @@ $font: "Open Sans", sans-serif;
 #ContactUs {
   display: inline-block;
   font-family: $font;
+  margin-top: 1em;
+  padding: 15vh;
+  height: 80vh;
   background-color: $color-complementario;
   color: $color-complementario;
-  //margin-left: 0vw;
-  padding-bottom: 5vh; //un margen de separacion del 10 % del viewport
-  padding-top: 5vh; //dejar espacion entre este componete y el footer
-  //height: 100%; // si no pongo el height se adapta al contenido
+  margin-top: 1vh;
+  height: 100vh; // si no pongo el height se adapta al contenido
   width: 100%; // trate de darle un ancho de el view port
+
+  h1 {
+    font-weight: 400;
+    font-size: 2rem;
+    font-weight: bold;
+    color: $color-resaltado;
+    padding-bottom: 5vh;
+    padding-top: 15vh;
+    font-family: $font_relaway;
+  }
+  h2 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: $color-complementario;
+  }
 }
 
 .tittle-footer {

@@ -5,8 +5,8 @@
         <div class="row h-100">
           <div class="col-lg-7 my-auto">
             <div class="header-content mx-auto">
-              <h2>PROEBA PACKING :</h2>
               <h1 class="mb-5">Venta ,Empaque y Transportación de Mango</h1>
+              <h3>PROEBAPACKING :</h3>
               <p>Bienvenidos cosechamos mangos de diferentes tipos, mangos seleccionados frescos y limpios , tenemos la mejores técnicas de empacado y distribución de mangos.</p>
               <p>Contamos con personal para el servicios de recolección, procesamiento de las frutas, empaque a la medida y distribución.</p>
             </div>
@@ -51,15 +51,18 @@ $background-color: #fff;
 $font: "Open Sans", sans-serif; //'Montserrat', sans-serif;
 
 #Welcome {
+  display: block;
   font-family: $font;
-  padding-top: 15vh;
+  margin-top: 1em;
+  //height: 100vh;
 
-  h2 {
+  h1 {
     font-weight: normal;
-    font-size: 48px;
+    font-size: 58px;
     font-weight: bold;
     color: #fff;
   }
+
   h3 {
     font-weight: normal;
     font-size: 28px;

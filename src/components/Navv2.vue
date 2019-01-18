@@ -10,19 +10,16 @@
           <b-nav-item href="#Welcome" class="scrollactive-item">BIENVENIDOS</b-nav-item>
         </b-navbar-nav>
         <b-navbar-nav>
-          <b-nav-item href="#About" class="scrollactive-item">CONOCENOS</b-nav-item>
-        </b-navbar-nav>
-        <b-navbar-nav>
           <b-nav-item href="#Servicios" class="scrollactive-item">SERVICIOS</b-nav-item>
         </b-navbar-nav>
         <b-navbar-nav>
           <b-nav-item href="#Gallery" class="scrollactive-item">PRODUCTOS</b-nav-item>
         </b-navbar-nav>
         <b-navbar-nav>
-          <b-nav-item href="#Footer2">CONTACTANOS</b-nav-item>
+          <b-nav-item href="#About" class="scrollactive-item">CONOCENOS</b-nav-item>
         </b-navbar-nav>
         <b-navbar-nav>
-          <b-nav-item href="#Maps">UBICANOS</b-nav-item>
+          <b-nav-item href="#ContactUs">CONTACTANOS</b-nav-item>
         </b-navbar-nav>
       </b-collapse>
     </b-navbar>

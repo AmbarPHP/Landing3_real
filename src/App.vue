@@ -3,10 +3,9 @@
     <Navv2></Navv2>
     <Welcome></Welcome>
     <Servicios></Servicios>
-    <!-- <Carrusel></Carrusel> -->
-    <!-- <Video></Video> -->
-    <About></About>
     <Gallery></Gallery>
+    <About></About>
+
     <ContactUs></ContactUs>
   </div>
 </template>

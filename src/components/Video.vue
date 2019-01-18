@@ -33,8 +33,7 @@ $background-color: #fff;
 
 #Video {
   font-family: "Open Sans", sans-serif;
-
-  height: 100vh;
+  //height: 100vh;
   width: 100%;
 }
 </style>
