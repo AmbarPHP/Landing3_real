@@ -1,103 +1,59 @@
 <template>
+  <!-- About -->
   <section id="About">
     <div class="container-fluid">
       <div class="row">
-        <div class="col-md-12 py-4">
-          <h1 class="text-center">NOSOTROS SOMOS PROEBAPAC</h1>
+        <div class="p-4 col-lg-4">
+          <h4 class="mb-3 text-white">Heading 4</h4>
+          <div class="blockquote text-muted">
+            <p
+              class="mb-0"
+            >Blockquoute -&nbsp;Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip.</p>
+            <div class="blockquote-footer">Someone famous in My memories</div>
+          </div>
+          <a class="btn btn-info" href="#">Button</a>
+        </div>
+        <div class="col-md-8 align-self-center">
+          <Video></Video>
         </div>
       </div>
-      <b-tabs pills card>
-        <b-tab title="CONOCENOS" active>
-          <div class="row">
-            <div class="col-md-6">
-              <Video></Video>
-            </div>
-            <div class="col-md-6 float-center align-bottom">
-              <h2>"Constantemente estamos creciendo una gran compañia"</h2>
-              <p>Ubicados en el municipio 5 de Mayo, Tepic, Nayarit.</p>
-              <p>
-                Nuestra empresa surge por la necesidad de crear empaque de calidad,
-                de exportar nuestro productos al extranjero
-                La Empacadora sustentable, abre sus puerta un 15 de Mayo 2018,
-                gracias el apoyo de nuestro socio ALGUIEN propietario de EMPRESA.
-                Area de 4000 mtrs cuadrados
-                Con 3 naves,20x60 cada una con :
-                Espacios lavador, separacion de fruta, area de reposo
-                cuartos de conservacion
-                maquinaria para cajas de carton
-              </p>
-              <p>
-                Nuestros clientes son Frutera frog, Robison Fresh
-                Actualmente tenemos la capacidad de produccion:3 cargas al dia
-                Nuestra Meta es :??
-              </p>
-            </div>
-          </div>
-        </b-tab>
-        <b-tab title="NUESTROS GENTE">
-          <div class="row">
-            <div class="col-md-4 text-center">
-              <h2>NUESTRO EQUIPO</h2>
-              <p>Un grupo de profesionales le atendera</p>
-
-              <img
-                class="img-fluid rounded float-right align-bottom"
-                src="../assets/images/gente.png"
-                alt="Infraestructura"
-              >
-              <p>
-                <a class="btn" href="#">View details »</a>
-              </p>
-            </div>
-            <div class="col-md-4 text-center">
-              <h2>GERENTE GRAL PROEBAPAC</h2>
-              <p>Iván Barajas</p>
-              <img
-                class="img-fluid rounded-circle float-center align-bottom"
-                src="../assets/images/gerente.png"
-                alt="Infraestructura"
-              >
-            </div>
-          </div>
-        </b-tab>
-        <b-tab title="NUESTROS PLANTA Y PROCESOS">
-          <div class="row">
-            <div class="col-md-4 float-center align-bottom">
-              <h2>Planta 5 de Mayo</h2>
-              <p>Empacadora cuenta con las siguientes areas:</p>
-              <b-list-group>
-                <b-list-group-item>Recepcion</b-list-group-item>
-                <b-list-group-item>Area de prueba fitosanitaria de Fruta</b-list-group-item>
-                <b-list-group-item>Area de lavado y preseleccion</b-list-group-item>
-                <b-list-group-item>Tina de tratamientos hidrotermicos</b-list-group-item>
-                <b-list-group-item>Area de reposo</b-list-group-item>
-                <b-list-group-item>Area de empacado de Fruta</b-list-group-item>
-                <b-list-group-item>Area de conservacion y refrigeracion</b-list-group-item>
-                <b-list-group-item>Area de maquinaria para caja de carton</b-list-group-item>
-                <b-list-group-item>Area de embalajes</b-list-group-item>
-              </b-list-group>
-            </div>
-
-            <div class="col-md-8">
-              <img
-                class="img-fluid rounded float-center align-bottom"
-                src="../assets/images/infra.jpeg"
-                alt="Infraestructura"
-              >
-            </div>
-          </div>
-        </b-tab>
-      </b-tabs>
+      <div class="row">
+        <div class="p-4 col-lg-4">
+          <h4 class="mb-3">
+            <b>Bold Heading 4</b>
+          </h4>
+          <ul class>
+            <li class="my-1">One -&nbsp;Lorem ipsum dolor sit amet</li>
+            <li class="my-1">Two -&nbsp;Lorem ipsum dolor sit amet</li>
+            <li class="my-1">Three - Lorem ipsum dolor sit amet</li>
+            <li class="my-1">Four - Lorem ipsum dolor sit amet</li>
+          </ul>
+        </div>
+        <div class="p-md-4 col-lg-8">
+          <h4 class="mb-3">
+            <b>Bold Heading 4</b>
+          </h4>
+          <Carrusel></Carrusel>
+        </div>
+      </div>
     </div>
+    <Clientes></Clientes>
+    <Team></Team>
   </section>
 </template>
 
 <script>
 import Video from "../components/Video.vue";
+import Clientes from "../components/Clientes.vue";
+import Team from "../components/Team.vue";
+import Carrusel from "../components/Carrusel.vue";
 export default {
   name: "About",
   components: {
-    Video
+    Video,
+    Clientes,
+    Team,
+    Carrusel
   },
   props: {
     msg: String
@@ -115,31 +71,26 @@ $font: "Open Sans", sans-serif; //'Montserrat', sans-serif;
 
 #About {
   font-family: $font;
-  padding-top: 15vh;
+  padding-top: 5vh;
   background-color: #891e67;
   //height: 100vh;
 
-  h1 {
+  h4 {
     font-weight: normal;
-    font-size: 38px;
+    font-size: 18px;
     font-weight: bold;
     color: #fff;
   }
-  h2 {
-    font-weight: normal;
-    font-size: 28px;
-    font-weight: bold;
-    color: #fff;
-  }
+  h2,
   h3 {
     font-weight: normal;
     font-size: 18px;
     font-weight: bold;
-    color: $color-complementario;
+    color: #fff;
   }
-
   a,
-  p {
+  p,
+  li {
     color: #fff;
     font-size: 18px;
   }

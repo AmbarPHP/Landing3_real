@@ -1,29 +1,5 @@
 <template>
   <section id="Welcome">
-    <!-- <div class="container-fluid">
-      <div class="row">
-        <div class="col-md-12">
-          <div class="jumbotron">
-            <h2>PROEBA PACKING :</h2>
-            <h3>Venta ,Empaque y Transportación de Mango</h3>
-            <p>Bienvenidos cosechamos mangos de diferentes tipos, mangos seleccionados frescos y limpios , tenemos la mejores técnicas de empacado y distribución de mangos.</p>
-            <p>Contamos con personal para el servicios de recolección, procesamiento de las frutas, empaque a la medida y distribución.</p>
-
-            <div class="row">
-              <div class="col-md-4 py-4">
-                <a class="btn btn-primary btn-large" href="#About">VIDEO PROMO »</a>
-              </div>
-              <div class="col-md-4">
-                <a class="btn btn-primary btn-large" href="#">VER NUESTRA GENTE »</a>
-              </div>
-              <div class="col-md-4 py-4">
-                <a class="btn btn-primary btn-large" href="#">CONTACTANOS»</a>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>-->
     <header class="masthead">
       <div class="container h-100">
         <div class="row h-100">
@@ -41,7 +17,7 @@
                 <div class="device">
                   <div class="screen">
                     <!-- Demo image for screen mockup, you can put an image here, some HTML, an animation, video, or anything else! -->
-                    <img src="../assets/images/logo.png" class="img-fluid" alt>
+                    <img src="../assets/images/logo1.png" class="img-fluid" alt>
                   </div>
                   <div class="button">
                     <!-- You can hook the "home button" to some JavaScript events or just remove it -->
