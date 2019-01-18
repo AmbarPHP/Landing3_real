@@ -43,7 +43,6 @@ $background-color: #fff;
 
 html,
 body {
-  height: 800vh;
   margin: 0 auto;
   padding: 0;
   background-color: $background-color;
@@ -55,7 +54,7 @@ body {
   width: 100%; //las unidades del viewport se dividen en 100 partes de vw
   margin-left: 0px;
   padding: 0px;
-  height: 900vh; //muy importante multiplicar por el numero de sessiones, porque 100 es el tamaño del viewport
+  height: 500vh; //muy importante multiplicar por el numero de sessiones, porque 100 es el tamaño del viewport
 }
 
 h1,
