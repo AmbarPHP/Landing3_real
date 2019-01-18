@@ -2,75 +2,67 @@
   <!-- Footer -->
   <section id="ContactUs">
     <div class="row">
-      <div class="col-md-12">
-        <h3 class="text-center tittle-footer">CONTACTANOS</h3>
+      <!-- Header -->
+      <div class="col-md-12 mb-5">
+        <h1 class="text-center tittle-footer">CONTACTANOS</h1>
       </div>
     </div>
-    <div class="row footer">
-      <!-- <div class="col-lg-3 text-center">
-        <p class="tittle-footer">PROEBA PACKING</p>
-        <p class="content-footer data">
-          With our whole family originally coming to the US from Ireland,
-          farming is definitely in our blood. Ultimately, having been
-          running this farm for 89 years by now, we're the top supplier
-          for all locals!
-        </p>
-        <div class="social-media">
-          <li>
-            <font-awesome-icon :icon="{ prefix: 'fab', iconName: 'facebook' }"/>
+    <div class="row">
+      <div class="col-sm-2 col-md-2">
+        <ul class="list-inline text-center list-unstyled">
+          <li class="list-inline-item">
+            <a class="p-2 fa-lg tw-ic">
+              <i class="fab fa-twitter"></i>
+            </a>
           </li>
-          <li>
-            <font-awesome-icon :icon="{ prefix: 'fab', iconName: 'twitter' }"/>
+          <li class="list-inline-item">
+            <a class="p-2 fa-lg li-ic">
+              <i class="fab fa-linkedin-in"></i>
+            </a>
           </li>
-        </div>
+          <li class="list-inline-item">
+            <a class="p-2 fa-lg ins-ic">
+              <i class="fab fa-instagram"></i>
+            </a>
+          </li>
+        </ul>
       </div>
-      <div class="col-lg-3 text-center">
-        <div class="latestNews">
-          <p class="tittle-footer">Ultimas Noticias</p>
-          <p class="content-footer news">Tips for Taking Care of the Livestock</p>
-          <p class="content-footer data">26 NOV 2018</p>
+      <div class="col-sm-10 col-md-3">
+        <p class="title">Correo:</p>
+        <p>agricola_yarexi@hotmail.com</p>
+        <p>Proebapack@hotmail.com</p>
 
-          <p class="content-footer news">Tips for Taking Care of the Livestock</p>
-          <p class="content-footer data">26 NOV 2018</p>
-        </div>
-      </div>-->
-      <div class="col-lg-6 col-md-6 col-sm-12 text-center">
-        <div>
-          <Maps></Maps>
-        </div>
+        <p class="title">Telefono:</p>
+        <p>(951) 236-4677</p>
+
+        <p class="title">Direccion:</p>
+        <p>Productora Agricola Yarexi SPR DE RL</p>
+        <p>Puebla Norte no 356</p>
       </div>
-      <div class="col-lg-3 col-md-3 col-sm-12 text-center">
-        <div>
-          <p class="tittle-content">Direccion:</p>
 
-          <p class="content-footer data">11559 Ventura Boulevard, Studio City, CA 91604</p>
-          <p class="content-footer data">Email: proeba@demolink.org</p>
-          <p class="content-footer data">Phone 01: 311-748-6051</p>
-          <p class="content-footer data">Phone 02: 311-748-6052</p>
-          <p class="content-footer data">Fax: 311-748-6050</p>
-        </div>
+      <div class="col-sm-10 col-md-5">
+        <Maps></Maps>
       </div>
-      <div class="col-lg-3 col-md-3 col-sm-12 text-center">
-        <div>
-          <p class="tittle-content">Suscribase</p>
-          <p class="content-footer data">Reciba noticias & Reciba correos con ofertas!</p>
-          <div class="contact-form">
-            <form action="#" method="post">
-              <div class="form-group">
-                <div class="col-md-12">
-                  <input type="email" class="form-control" placeholder="Direccion de correo">
-                </div>
-              </div>
-
-              <div class="col-md-12">
-                <button type="submit" class="btn btn-verde mb-2">Suscribirse</button>
-              </div>
-            </form>
-          </div>
-        </div>
+      <div class="col-sm-10 col-md-2">
+        <ul class="list-inline text-center list-unstyled">
+          <li class="list-inline-item">
+            <a class="p-2 fa-lg tw-ic">
+              <i class="fab fa-twitter"></i>
+            </a>
+          </li>
+          <li class="list-inline-item">
+            <a class="p-2 fa-lg li-ic">
+              <i class="fab fa-linkedin-in"></i>
+            </a>
+          </li>
+          <li class="list-inline-item">
+            <a class="p-2 fa-lg ins-ic">
+              <i class="fab fa-instagram"></i>
+            </a>
+          </li>
+        </ul>
       </div>
     </div>
-
     <Footer></Footer>
   </section>
 </template>
@@ -104,22 +96,19 @@ $font: "Open Sans", sans-serif;
 #ContactUs {
   display: inline-block;
   font-family: $font;
-  margin-top: 1em;
-  padding: 15vh;
-  height: 80vh;
+  margin-top: 0vh;
+  padding: 5vh;
+  height: 100vh;
   background-color: $color-complementario;
   color: $color-complementario;
-  margin-top: 1vh;
-
   width: 100%; // trate de darle un ancho de el view port
 
   h1 {
     font-weight: 400;
     font-size: 2rem;
     font-weight: bold;
-    color: $color-resaltado;
-    padding-bottom: 5vh;
-    padding-top: 15vh;
+    color: #fff;
+    padding-top: 5vh;
     font-family: $font_relaway;
   }
   h2 {
@@ -127,58 +116,23 @@ $font: "Open Sans", sans-serif;
     font-weight: bold;
     color: $color-complementario;
   }
-}
-
-.tittle-footer {
-  font-size: 28px;
-  font-weight: bold;
-  line-height: 1.2307;
-  color: $background-color;
-  padding-bottom: 5vh;
-}
-.tittle-content {
-  font-size: 28px;
-  font-weight: bold;
-  line-height: 1.2307;
-  color: $background-color;
-  padding-bottom: 15vh;
-}
-.content-footer {
-  padding-left: 0vw;
-  padding-top: 0vh;
-  text-align: left;
-}
-.news {
-  font-weight: bold;
-  line-height: 1.2307;
-  color: $color-resaltado;
-  font-size: 18px;
-}
-.data {
-  color: $background-color;
-  font-size: 18px;
-}
-.latestNews {
-  //cambia el tipo de fuente a todo lo que esta en este div
-  color: $color-resaltado;
-  font-family: "Courier New", Courier, monospace;
-}
-h3 {
-  color: $color-resaltado;
-}
-ul {
-  list-style-type: none;
-  padding: 0;
-}
-li {
-  display: inline-block;
-  margin: 0 10vw;
-}
-a {
-  color: $color-resaltado;
-}
-.btn-verde {
-  background-color: $color-resaltado;
-  color: $color-complementario;
+  .title {
+    font-weight: 400;
+    font-size: 2rem;
+    font-weight: bold;
+    color: #fff;
+    padding-bottom: 0vh;
+    font-family: $font_relaway;
+  }
+  a,
+  p {
+    font-size: 18px;
+    font-weight: bold;
+    color: #fff;
+  }
+  .btn-verde {
+    background-color: $color-resaltado;
+    color: $color-complementario;
+  }
 }
 </style>
