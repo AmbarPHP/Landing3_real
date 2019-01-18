@@ -12,6 +12,7 @@
           <div class="blockquote">
             <h2>"Constantemente estamos creciendo, somos una gran compañia"</h2>
             <p>Ubicados en el municipio 5 de Mayo, Tepic, Nayarit.</p>
+            <p>Nuestro socios Yarexi</p>
             <p>
               Nuestra empresa surge por la necesidad de crear empaque de calidad,
               de exportar nuestro productos al extranjero
@@ -32,7 +33,6 @@
               <li>Area de maquinaria para caja de carton</li>
               <li>Area de embalajes</li>
             </ul>
-
             <p>
               Nuestros clientes son Frutera frog, Robison Fresh
               Actualmente tenemos la capacidad de produccion:3 cargas al dia
@@ -101,7 +101,7 @@ $color-complementario: #891e67;
 #About {
   font-family: $font;
   margin-top: 1em; //alinear base line for section
-  background-color: rgba(245, 236, 236, 0.555);
+  background-color: #fff; // rgba(245, 236, 236, 0.555);
   //padding: 15vh;
   //height: 300vh;
 

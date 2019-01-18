@@ -49,12 +49,11 @@
           <div
             class="col-xs-12 col-sm-12 col-md-12 col-lg-12 justify-content-center px-0 py-1 align-self-center table-bordered"
           >
-            <img
+            <!-- <img
               class="img-fluid rouded w-100 h-100"
               src="../assets/images/info_servicios.png"
               alt="Lights"
-              style=" height:100% width:100%"
-            >
+            >-->
           </div>
         </div>
       </div>
@@ -65,15 +64,6 @@
       </div>
       <div class="row">
         <div class="col-md-4">
-          <div class="icon">
-            <i
-              style="background-color:transparent;
-              border-color:transparent;
-              height:auto;width: 68px;
-              line-height:normal;color:#ff9800;font-size:68px;"
-              class="fa fontawesome-icon fa-laptop circle-no"
-            >sdfasdf</i>
-          </div>
           <h2>Diseño de embalaje</h2>
           <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui.</p>
           <p>

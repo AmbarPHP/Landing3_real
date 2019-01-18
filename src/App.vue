@@ -43,7 +43,7 @@ $background-color: #fff;
 
 html,
 body {
-  height: 100%;
+  height: 800vh;
   margin: 0 auto;
   padding: 0;
   background-color: $background-color;

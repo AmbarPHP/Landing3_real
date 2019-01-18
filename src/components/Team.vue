@@ -1,5 +1,5 @@
 <template>
-  <section id="Team" class="bg-light">
+  <section id="Team">
     <div class="container">
       <div class="row">
         <div class="col-lg-12 text-center">
@@ -134,10 +134,10 @@ $color-complementario: #891e67;
 #Team {
   display: inline-block;
   font-family: $font;
-  margin-top: 10vh;
+  margin-top: 1vh;
   padding: 5vh;
   height: 100vh;
-  background-color: rgba(245, 236, 236, 0.555);
+  background-color: #fff; // rgba(245, 236, 236, 0.555);
   width: 100%;
 
   // top: 0;
