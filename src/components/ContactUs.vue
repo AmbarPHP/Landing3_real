@@ -3,30 +3,33 @@
   <section id="ContactUs">
     <div class="row">
       <!-- Header -->
-      <div class="col-md-12 mb-5">
-        <h1 class="text-center tittle-footer">CONTACTANOS</h1>
+      <div class="col-md-12 mb-0">
+        <h1 class="text-left tittle-footer">CONTACTANOS</h1>
+        <p>Tienes un proyecto en el que quieres que trabajemos en conjunto o quisas algunas preguntas</p>
+        <p>contactanos y te atenderemos con la mejor disposicion</p>
       </div>
     </div>
+    <!-- Grid row-secondary -->
     <div class="row">
-      <div class="col-sm-2 col-md-2">
-        <ul class="list-inline text-center list-unstyled">
-          <li class="list-inline-item">
-            <a class="p-2 fa-lg tw-ic">
-              <i class="fab fa-twitter"></i>
-            </a>
-          </li>
-          <li class="list-inline-item">
-            <a class="p-2 fa-lg li-ic">
-              <i class="fab fa-linkedin-in"></i>
-            </a>
-          </li>
-          <li class="list-inline-item">
-            <a class="p-2 fa-lg ins-ic">
-              <i class="fab fa-instagram"></i>
-            </a>
-          </li>
-        </ul>
+      <!-- Grid column subscription-->
+      <div class="col-lg-4 col-md-4">
+        <p class="title">Nuestras Oficinas:</p>
+        <Adress></Adress>
       </div>
+
+      <div class="col-lg-4 col-md-4">
+        <p class="title">Escribenos:</p>
+        <WriteUs></WriteUs>
+      </div>
+      <!-- Grid column social-->
+      <div class="col-lg-4 col-md-4">
+        <p class="title">Mantente informado:</p>
+        <SocialMedia></SocialMedia>
+      </div>
+    </div>
+    <!-- Grid column google maps-->
+    <!-- OTRO EJEMPLO  -->
+    <!-- <div class="row">
       <div class="col-sm-10 col-md-3">
         <p class="title">Correo:</p>
         <p>agricola_yarexi@hotmail.com</p>
@@ -44,25 +47,28 @@
         <Maps></Maps>
       </div>
       <div class="col-sm-10 col-md-2">
-        <ul class="list-inline text-center list-unstyled">
-          <li class="list-inline-item">
-            <a class="p-2 fa-lg tw-ic">
-              <i class="fab fa-twitter"></i>
-            </a>
-          </li>
-          <li class="list-inline-item">
-            <a class="p-2 fa-lg li-ic">
-              <i class="fab fa-linkedin-in"></i>
-            </a>
-          </li>
-          <li class="list-inline-item">
-            <a class="p-2 fa-lg ins-ic">
-              <i class="fab fa-instagram"></i>
-            </a>
-          </li>
-        </ul>
+        <div class="col-sm-2 col-md-2">
+          <p class="title">Redes sociales:</p>
+          <ul class="text-center list-unstyled">
+            <li class="list-inline-item">
+              <a class="mb-6 fa-lg tw-ic">Twitter
+                <font-awesome-icon size="5x" :icon="{ prefix: 'fab', iconName: 'twitter' }"/>
+              </a>
+            </li>
+            <li class="list-inline-item">
+              <a class="mb-6 fa-lg li-ic">facebook
+                <font-awesome-icon size="5x" :icon="{ prefix: 'fab', iconName: 'facebook' }"/>
+              </a>
+            </li>
+            <li class="list-inline-item">
+              <a class="mb-6 fa-lg ins-ic">Instagram
+                <font-awesome-icon size="5x" :icon="{ prefix: 'fab', iconName: 'instagram' }"/>
+              </a>
+            </li>
+          </ul>
+        </div>
       </div>
-    </div>
+    </div>-->
     <Footer></Footer>
   </section>
 </template>
@@ -70,11 +76,17 @@
 <script>
 import Maps from "../components/Maps.vue";
 import Footer from "../components/Footer.vue";
+import Adress from "../components/Adress.vue";
+import WriteUs from "../components/WriteUs.vue";
+import SocialMedia from "../components/SocialMedia.vue";
 export default {
   name: "ContactUs",
   components: {
     Maps,
-    Footer
+    Footer,
+    Adress,
+    WriteUs,
+    SocialMedia
   },
   props: {
     msg: String
@@ -118,7 +130,7 @@ $font: "Open Sans", sans-serif;
   }
   .title {
     font-weight: 400;
-    font-size: 2rem;
+    font-size: 18px;
     font-weight: bold;
     color: #fff;
     padding-bottom: 0vh;
@@ -130,9 +142,15 @@ $font: "Open Sans", sans-serif;
     font-weight: bold;
     color: #fff;
   }
-  .btn-verde {
-    background-color: $color-resaltado;
-    color: $color-complementario;
+  .white-box {
+    //background-color: #fff;
+    a,
+    p {
+      font-size: 18px;
+      font-weight: bold;
+      color: $color-complementario;
+      background: #891e67;
+    }
   }
 }
 </style>
