@@ -28,48 +28,7 @@
         <Maps></Maps>
       </div>
     </div>
-    <!-- Grid column google maps-->
-    <!-- OTRO EJEMPLO  -->
-    <!-- <div class="row">
-      <div class="col-sm-10 col-md-3">
-        <p class="title">Correo:</p>
-        <p>agricola_yarexi@hotmail.com</p>
-        <p>Proebapack@hotmail.com</p>
 
-        <p class="title">Telefono:</p>
-        <p>(951) 236-4677</p>
-
-        <p class="title">Direccion:</p>
-        <p>Productora Agricola Yarexi SPR DE RL</p>
-        <p>Puebla Norte no 356</p>
-      </div>
-
-      <div class="col-sm-10 col-md-5">
-        <Maps></Maps>
-      </div>
-      <div class="col-sm-10 col-md-2">
-        <div class="col-sm-2 col-md-2">
-          <p class="title">Redes sociales:</p>
-          <ul class="text-center list-unstyled">
-            <li class="list-inline-item">
-              <a class="mb-6 fa-lg tw-ic">Twitter
-                <font-awesome-icon size="5x" :icon="{ prefix: 'fab', iconName: 'twitter' }"/>
-              </a>
-            </li>
-            <li class="list-inline-item">
-              <a class="mb-6 fa-lg li-ic">facebook
-                <font-awesome-icon size="5x" :icon="{ prefix: 'fab', iconName: 'facebook' }"/>
-              </a>
-            </li>
-            <li class="list-inline-item">
-              <a class="mb-6 fa-lg ins-ic">Instagram
-                <font-awesome-icon size="5x" :icon="{ prefix: 'fab', iconName: 'instagram' }"/>
-              </a>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </div>-->
     <Footer></Footer>
   </section>
 </template>
