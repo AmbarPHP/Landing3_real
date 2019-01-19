@@ -3,28 +3,29 @@
   <section id="ContactUs">
     <div class="row">
       <!-- Header -->
-      <div class="col-md-12 mb-0">
-        <h1 class="text-left tittle-footer">CONTACTANOS</h1>
+      <div class="col-lg-12 col-md-12 pl-5 col-sm-12 align-items-center">
+        <h1 class="tittle-footer">CONTACTANOS</h1>
         <p>Tienes un proyecto en el que quieres que trabajemos en conjunto o quisas algunas preguntas</p>
         <p>contactanos y te atenderemos con la mejor disposicion</p>
       </div>
-    </div>
-    <!-- Grid row-secondary -->
-    <div class="row">
+      <div class="w-100"></div>
       <!-- Grid column subscription-->
-      <div class="col-lg-4 col-md-4">
+      <div class="col-lg-3 col-md-3 col-sm-12 pl-5">
         <p class="title">Nuestras Oficinas:</p>
         <Adress></Adress>
       </div>
 
-      <div class="col-lg-4 col-md-4">
+      <div class="col-lg-4 col-md-4 col-sm-12">
         <p class="title">Escribenos:</p>
         <WriteUs></WriteUs>
       </div>
       <!-- Grid column social-->
-      <div class="col-lg-4 col-md-4">
+      <div class="col-lg-5 col-md-5 col-sm-12">
         <p class="title">Mantente informado:</p>
         <SocialMedia></SocialMedia>
+        <div class="w-100"></div>
+        <br>
+        <Maps></Maps>
       </div>
     </div>
     <!-- Grid column google maps-->
@@ -109,8 +110,8 @@ $font: "Open Sans", sans-serif;
   display: inline-block;
   font-family: $font;
   margin-top: 0vh;
-  padding: 5vh;
-  height: 100vh;
+  //padding: 5vh;
+  //height: 100vh;
   background-color: $color-complementario;
   color: $color-complementario;
   width: 100%; // trate de darle un ancho de el view port

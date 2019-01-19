@@ -1,23 +1,23 @@
 <template>
   <!-- feature -->
   <section id="SocialMedia">
-    <ul class="list-inline text-center list-unstyled">
-      <li class="list-inline-item">
+    <div class="row">
+      <div class="col">
         <a class="mb-1 fa-lg tw-ic">Twitter
           <font-awesome-icon size="2x" :icon="{ prefix: 'fab', iconName: 'twitter' }"/>
         </a>
-      </li>
-      <li class="list-inline-item">
+      </div>
+      <div class="col">
         <a class="mb-1 fa-lg li-ic">facebook
           <font-awesome-icon size="2x" :icon="{ prefix: 'fab', iconName: 'facebook' }"/>
         </a>
-      </li>
-      <li class="list-inline-item">
+      </div>
+      <div class="col">
         <a class="mb-1 fa-lg ins-ic">Instagram
           <font-awesome-icon size="2x" :icon="{ prefix: 'fab', iconName: 'instagram' }"/>
         </a>
-      </li>
-    </ul>
+      </div>
+    </div>
   </section>
 </template>
 
