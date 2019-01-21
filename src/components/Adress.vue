@@ -30,18 +30,19 @@
     <div class="row">
       <div class="col-md-12">
         <a class="btn-floating blue accent-1">
-          <font-awesome-icon icon="phone"/>
+          <font-awesome-icon icon="phone"/>  Llamar ahora
         </a>
+        </br>
         <!-- <p class="title">Telefono:</p> -->
-        <p>(951) 236-4677</p>
-
+        <a class="btn btn-light" href="tel://3315001231">(951) 236-4677</a>
+        <!-- <p class="strong">(951) 236-4677</p> -->
         <a class="btn-floating blue accent-1">
           <font-awesome-icon icon="map-market-alt"/>
           <font-awesome-icon size="3x" :icon="{ prefix: 'fab', iconName: 'map-marker-alt' }"/>
         </a>
         <!-- <p class="title">Direccion:</p> -->
         <hr>
-        <p>Productora Agricola Yarexi SPR DE RL</p>
+        <p>Productora Agricola Yarexi SPR DE RL:</p>
         <p>Puebla Norte no 356</p>
         <hr>
         <a class="btn-floating blue accent-1">
@@ -71,6 +72,16 @@ export default {
     font-size: 18px;
     font-weight: bold;
     color: #fff;
+  }
+  .strong {
+    font-size: 20px;
+    font-weight: 800;
+    color: #fff;
+  }
+  .btn-light {
+    color: #212529;
+    background-color: #f8f9fa;
+    border-color: #f8f9fa;
   }
 }
 </style>

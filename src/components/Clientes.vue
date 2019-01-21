@@ -1,29 +1,25 @@
 <template>
-  <section id="Clientes" class="py-5">
+  <section id="Clientes" class="my-5">
     <div class="container">
       <div class="row">
-        <div class="col-md-3 col-sm-6">
-          <a href="#">
-            <img class="img-fluid d-block mx-auto" src="../assets/images/clientes/cliente1.png" alt>
-          </a>
-        </div>
-        <div class="col-md-3 col-sm-6">
+        <div class="col-lg-3 col-md-3 col-sm-6">
           <a href="#">
             <img class="img-fluid d-block mx-auto" src="../assets/images/clientes/cliente2.png" alt>
           </a>
         </div>
-        <div class="col-md-3 col-sm-6">
+        <div class="col-lg-3 col-md-3 col-sm-6">
           <a href="#">
-            <img class="img-fluid d-block mx-auto" src="../assets/images/clientes/cliente3.jpg" alt>
+            <img class="img-fluid d-block mx-auto" src="../assets/images/clientes/cliente2.png" alt>
           </a>
         </div>
-        <div class="col-md-3 col-sm-6">
+        <div class="col-lg-3 col-md-3 col-sm-6">
           <a href="#">
-            <img
-              class="img-fluid d-block mx-auto"
-              src="../assets/images/clientes/cliente4.jpeg"
-              alt
-            >
+            <img class="img-fluid d-block mx-auto" src="../assets/images/clientes/cliente2.png" alt>
+          </a>
+        </div>
+        <div class="col-lg-3 col-md-3 col-sm-6">
+          <a href="#">
+            <img class="img-fluid d-block mx-auto" src="../assets/images/clientes/cliente2.png" alt>
           </a>
         </div>
       </div>
@@ -52,7 +48,7 @@ $color-complementario: #891e67;
 #Clientes {
   //background-color: rgba(245, 236, 236, 0.555);
   width: 100%;
-  margin-top: 15vh;
+  //margin-top: 15vh;
   // top: 0;
   // left: 0;
   //opacity: 0.3;//opacidad para dar algo de diseño
@@ -61,7 +57,7 @@ $color-complementario: #891e67;
     font-size: 2rem;
     font-weight: bold;
     color: $color-resaltado;
-    padding-top: 15vh;
+    //padding-top: 15vh;
     font-family: $font_relaway;
   }
   h2 {

@@ -4,28 +4,30 @@
     <div class="row">
       <!-- Header -->
       <div class="col-lg-12 col-md-12 pl-5 col-sm-12 align-items-center">
-        <h1 class="tittle-footer">CONTACTANOS</h1>
+        <h1 class="tittle-footer">ENVIANOS UN MENSAJE</h1>
         <p>Tienes un proyecto en el que quieres que trabajemos en conjunto o quisas algunas preguntas</p>
         <p>contactanos y te atenderemos con la mejor disposicion</p>
       </div>
       <div class="w-100"></div>
       <!-- Grid column subscription-->
-      <div class="col-lg-3 col-md-3 col-sm-12 pl-5">
-        <p class="title">Nuestras Oficinas:</p>
-        <Adress></Adress>
+      <div class="col-lg-5 col-md-12 col-sm-12 pl-5 text-center">
+        <Maps></Maps>
       </div>
 
-      <div class="col-lg-4 col-md-4 col-sm-12">
+      <!-- Grid column social-->
+      <div class="col-lg-3 col-md-12 col-sm-12 justify-content-center">
+        <div class="row">
+          <div class="col-md-12 d-flex justify-content-center">
+            <Adress></Adress>
+          </div>
+          <div class="col-md-12 d-flex md-ml-6 justify-content-center">
+            <SocialMedia></SocialMedia>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4 col-md-12 col-sm-12 pl-5">
         <p class="title">Escribenos:</p>
         <WriteUs></WriteUs>
-      </div>
-      <!-- Grid column social-->
-      <div class="col-lg-5 col-md-5 col-sm-12">
-        <p class="title">Mantente informado:</p>
-        <SocialMedia></SocialMedia>
-        <div class="w-100"></div>
-        <br>
-        <Maps></Maps>
       </div>
     </div>
 

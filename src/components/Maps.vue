@@ -3,7 +3,7 @@
   <section id="Maps">
     <iframe
       src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14847.877980776071!2d-104.90133423438347!3d21.508914770722182!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x84273702c0e631ab%3A0xf8dd9a85cd205254!2sCentro%2C+Tepic%2C+Nay.!5e0!3m2!1ses-419!2smx!4v1547836123481"
-      width="600"
+      width="400"
       height="400"
       frameborder="0"
       style="border:0"
@@ -24,8 +24,8 @@ export default {
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped lang="scss">
 #Maps {
-  display: block;
   width: 100%;
+  //padding: 10px;
   // top: 0;
   // left: 0;
   //opacity: 0.3;//opacidad para dar algo de diseño

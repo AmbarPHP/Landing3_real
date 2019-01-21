@@ -3,18 +3,18 @@
   <section id="SocialMedia">
     <div class="row">
       <div class="col">
-        <a class="mb-1 fa-lg tw-ic">Twitter
-          <font-awesome-icon size="2x" :icon="{ prefix: 'fab', iconName: 'twitter' }"/>
-        </a>
-      </div>
-      <div class="col">
-        <a class="mb-1 fa-lg li-ic">facebook
+        <a class="mb-1 fa-lg" href="https://www.facebook.com/PRODUCTORAAGRICOLAYAREXISPRDERL/">
           <font-awesome-icon size="2x" :icon="{ prefix: 'fab', iconName: 'facebook' }"/>
         </a>
       </div>
       <div class="col">
-        <a class="mb-1 fa-lg ins-ic">Instagram
+        <a class="mb-1 fa-lg">
           <font-awesome-icon size="2x" :icon="{ prefix: 'fab', iconName: 'instagram' }"/>
+        </a>
+      </div>
+      <div class="col">
+        <a class="mb-1 fa-lg">
+          <font-awesome-icon size="2x" :icon="{ prefix: 'fab', iconName: 'twitter' }"/>
         </a>
       </div>
     </div>

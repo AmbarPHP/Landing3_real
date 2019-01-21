@@ -55,7 +55,7 @@ $background-color: #fff;
     height: 15vh;
     width: 100%;
     border-color: #ffffff;
-    display: inline-block; //para que no se traslape e menu
+    display: block; //para que no se traslape e menu
   }
   .nav-link,
   .navbar-brand {
@@ -63,7 +63,15 @@ $background-color: #fff;
     cursor: pointer;
   }
   .nav-link {
-    margin-right: 1em !important;
+    padding: 0 30px;
+    display: block;
+    height: 45px;
+    width: 100%;
+    line-height: normal;
+    border: none;
+    background-color: #fff;
+    margin-right: 2rem !important;
+    position: relative;
   }
   .nav-link:hover {
     background: $background-color;

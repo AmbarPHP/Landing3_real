@@ -4,15 +4,17 @@
     <div class="container-fluid">
       <div class="row">
         <div class="col-md-12 py-4">
-          <h1 class="text-center">CONOCE A PRUEBAPACK</h1>
+          <h1 class="text-center">QUIENES SOMOS</h1>
         </div>
       </div>
       <div class="row">
         <div class="col-lg-6 col-md-12 text-center">
           <div class="blockquote">
-            <h2>"Constantemente estamos creciendo, somos una gran compañia"</h2>
-            <p>Ubicados en el municipio 5 de Mayo, Tepic, Nayarit.</p>
-            <p>Nuestro socios Yarexi</p>
+            <span>
+              "Constantemente estamos creciendo, somos una gran compañia"
+              Ubicados en el municipio 5 de Mayo, Tepic, Nayarit.
+              Nuestro socios Yarexi
+            </span>
             <p>
               Nuestra empresa surge por la necesidad de crear empaque de calidad,
               de exportar nuestro productos al extranjero
@@ -107,13 +109,21 @@ $color-complementario: #891e67;
 
   //height: 100vh;
   h1 {
-    font-weight: 400;
     font-size: 2rem;
-    font-weight: bold;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1px;
     color: $color-resaltado;
     padding-bottom: 5vh;
-    padding-top: 15vh;
+
     font-family: $font_relaway;
+  }
+  span {
+    display: block;
+    margin-top: 10px;
+    font-weight: 300;
+    color: #777;
+    font-size: 1.5rem;
   }
   h2 {
     font-size: 1.5rem;
@@ -124,7 +134,7 @@ $color-complementario: #891e67;
   p,
   li {
     color: $color-complementario;
-    font-size: 1.5rem;
+    font-size: 1rem;
     border: $color-resaltado;
     padding-left: 20px;
   }
