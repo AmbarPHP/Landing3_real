@@ -54,7 +54,8 @@ $font: "Open Sans", sans-serif; //'Montserrat', sans-serif;
   display: block;
   font-family: $font;
   margin-top: 1em;
-  height: 100vh;
+  height: auto;
+  position: relative;
 
   h1 {
     font-weight: normal;

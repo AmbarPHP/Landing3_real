@@ -24,6 +24,13 @@
         <div class="col-lg-4 col-md-12 col-sm-12">
           <h2>RECOLECTAMOS</h2>
           <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui.</p>
+          <img
+            class="img-fluid"
+            src="../assets/images/galeria/mango6.png"
+            width="600"
+            height="200"
+            alt
+          >
           <p>
             <a class="btn" href="#">Ver detalles »</a>
           </p>
@@ -31,6 +38,13 @@
         <div class="col-lg-4 col-md-12 col-sm-12">
           <h2>EMPACAMOS</h2>
           <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui.</p>
+          <img
+            class="img-fluid"
+            src="../assets/images/galeria/productos1.png"
+            width="600"
+            height="200"
+            alt
+          >
           <p>
             <a class="btn" href="#">Ver detalles »</a>
           </p>
@@ -38,6 +52,13 @@
         <div class="col-lg-4 col-md-12 col-sm-12">
           <h2>DISTRIBUIMOS</h2>
           <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui.</p>
+          <img
+            class="img-fluid"
+            src="../assets/images/galeria/distribucion1.png"
+            width="600"
+            height="200"
+            alt
+          >
           <p>
             <a class="btn" href="#">Ver detalles »</a>
           </p>
@@ -113,7 +134,8 @@ $font_relaway: "font-family: 'Raleway', sans-serif;";
   font-family: $font_relaway;
   margin-top: 1vh;
   //padding: 15vh;
-  //height: 300vh;
+  height: auto;
+  position: relative;
 
   h1 {
     font-weight: 400;

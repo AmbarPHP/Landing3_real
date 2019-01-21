@@ -25,8 +25,8 @@
           </div>
         </div>
       </div>
-      <div class="col-lg-4 col-md-12 col-sm-12 pl-5">
-        <p class="title">Escribenos:</p>
+      <div class="col-lg-4 col-md-12 col-sm-12 pl-2 justify-content-center">
+        <!-- <p class="title">Escribenos:</p> -->
         <WriteUs></WriteUs>
       </div>
     </div>
