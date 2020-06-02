@@ -1,4 +1,4 @@
-# real-world-vue
+# Template de Landing Page con Vue
 
 ## Project setup
 ```
